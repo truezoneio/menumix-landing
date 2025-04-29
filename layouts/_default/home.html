@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="bg-light pt-5">
+    <div class="container px-4 pt-lg-4">
+        <div class="d-flex flex-column align-items-center justify-content-between g-5 pt-2">
+            <div class="col-12 col-lg-7 mt-lg-3 pe-0">
+                <h1 class="display-2 fw-bold lh-1 mb-3 text-center" data-aos="fade-right" data-aos-delay="0">AML Screening for Small Businesses</h1>
+                <p class="lead text-center mb-0" data-aos="fade-right" data-aos-delay="50">Sanctions Screening platform designed for offline businesses, offering real-time checks against 250+ global sanction lists</p>
+            </div>
+            <div class="col-12 col-lg-4 my-4 pe-0">
+                <div class="text-center" data-aos="fade-right" data-aos-delay="100">
+                    <div class="d-flex flex-column gap-2">
+                        <input type="text" id="emailInput" class="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="button-addon2">
+                        <a id="button-addon2" type="button" href="#" class="btn btn-danger" onclick="redirectToRegister()">Start Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-10" data-aos="fade-left" data-aos-delay="200">
+                <div class="d-block">
+                    <img src="/images/banner.png" class="img-fluid" style="margin-bottom:-4rem" alt="Bootstrap Themes">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

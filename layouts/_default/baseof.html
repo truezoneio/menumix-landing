@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}">
+    {{ partial "head.html" . }}
+    <style>
+        html, body{
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0;
+        font-family: 'DM Sans', sans-serif;
+        color: #0D1D36!important;
+        }   
+        div, p, li, ul, .nav-link {
+        font-family: 'Inter', sans-serif;
+        color: #42597D!important;
+        }   
+        .bg-light{
+        background: #fbfbfb!important;
+        }
+        .text-muted{
+        color: #42597D!important;
+        }
+        .bg-dark{
+        background: #0D1D36!important;
+        }
+        .text-dark{
+        color: #0D1D36!important;
+        }
+        .accordion-button:not(.collapsed){
+            background: unset;
+        }
+    </style>
+    <body>
+        <main style="height: 100vh; display: flex; align-items: center; justify-content:center">
+            <div class="d-flex flex-column gap-2">
+                <a href="/#" class="d-flex align-items-center text-white text-decoration-none justify-content-center" style="margin-right: 1em; width: 100%">
+                    <img src="/images/logo-dark.svg" height="30">
+                </a>
+                <a class="btn btn-danger" href="https://panel.menumix.app">Access</a>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init({ once: true });</script>
+    </body>
+</html>

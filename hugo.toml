@@ -1,0 +1,8 @@
+baseURL = "https://menumix.app"
+title = "MenuMix"
+languageCode = "en-us"
+pagination.pagerSize = 10
+enableRobotsTXT = true
+
+[params]
+  description = "Easy QR menu generator and cloud restaurant POS system"
