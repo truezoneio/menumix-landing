@@ -1,39 +1,48 @@
-<head>
-    <title>
-        {{- if .IsHome -}}
-            {{ .Site.Title }} - Easy QR Menu
-        {{- else if .Page.Title -}}
-            {{ .Page.Title }} - {{ .Site.Title }}
-        {{- else -}}
-            {{ .Site.Title }}
-        {{- end -}}
-   </title> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8"/>
-    <link rel="icon" href="/icons/favicon.png" type="image/png"/>
-    <link rel="icon" href="/icons/favicon.svg" sizes="any" type="image/svg+xml"/>
-    <link href="/main.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@38..40,300..1000&family=Inter:opsz,wght@14..32,300..900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YCGQ89LW96"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<title>
+    {{- if .IsHome -}}
+        {{ .Site.Title }} - QR Menü ve Restoran Yönetim Sistemi
+    {{- else if .Page.Title -}}
+        {{ .Page.Title }} - {{ .Site.Title }}
+    {{- else -}}
+        {{ .Site.Title }}
+    {{- end -}}
+</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
+<link rel="shortcut icon" href="/icons/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Menumix" />
+<link rel="manifest" href="/icons/site.webmanifest" />
 
-    gtag('config', 'G-YCGQ89LW96');
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16998662018">
-    </script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'AW-16998662018');
-    </script>
-</head>
+<meta name="keyword" content="menumix, menu mix, qr menu, dijital menu, restoran yönetimi, qr dijital menu, akilli menu"/>
+{{- if .IsHome -}}
+    <meta property="og:title" content="Menumix"/>
+    <meta property="og:description" content="{{ site.Params.Description }}"/>
+    <meta name="description" content="{{ site.Params.Description }}" />
+    <meta property="og:image" content="share.png"/>
+{{- else -}}
+    <meta property="og:title" content="{{ .Params.Title }} - Menumix"/>
+    <meta property="og:description" content="{{ .Params.Description }}"/>
+    <meta name="description" content="{{ .Params.Description }}" />
+    {{ with .Resources.GetMatch "cover*" }}
+    <meta property="og:image" content="{{ .Permalink }}"/>
+    <meta property="og:image:secure_url" content="{{ .Permalink }}"/>
+    <meta property="twitter:image" content="{{ .Permalink }}"/>
+    {{ else }}
+    <meta property="og:image" content="share.png"/>
+    <meta property="og:image:secure_url" content="share.png"/>
+    <meta property="twitter:image" content="share.png"/>
+    {{ end }}
+{{- end }}
+<meta property="og:url" content="https://menumix.app"/>
+<meta name="theme-color" content="#DC2627"/>
+<script>
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+</script>

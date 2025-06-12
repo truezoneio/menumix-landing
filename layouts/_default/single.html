@@ -1,59 +1,20 @@
 {{ define "main" }}
-  
-    <!-- Content -->
-    
-    <style>
-        .card-img-top {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            border-radius: 1rem;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            margin-bottom: 10px;
-        }
-        p{
-            margin-bottom: 20px;
-            font-size: 18px;
-        }
-    </style>
-
-    <section class="pt-5 mb-3">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-7">
-                    <div class="d-flex flex-column gap-3 my-3">
-                        {{ partial "breadcrumbs.html" . }}
-                        <h1 class="fw-bold lh-1">
-                          {{ .Title }}
-                        </h1>
-                        <div class="d-flex">
-                            <div>
-                                <span class="small text-muted">
-                                    <i class="bi bi-calendar3"></i>
-                                    {{ .Date | time.Format ":date_medium" }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    {{ with .Resources.GetMatch "cover*" }} <!-- Look for featured image in the bundle -->
-                    <img src="{{ .Permalink }}" class="card-img-top img-fluid rounded-4" alt="{{ $.Title }}" style="height:300px; object-fit:cover; object-position: center;">
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- FAQ -->
-    <section id="faq" class="">
-        <div class="container ">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-7">
-                    {{ .Content }}
-                </div>
-            </div>
-        </div>
-    </section>
+<main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-neutral-900 antialiased">
+    <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
+        <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+            {{ partial "breadcrumbs.html" . }}
+            {{ with .Resources.GetMatch "cover*" }} <!-- Look for featured image in the bundle -->
+                <img class="w-full rounded-lg max-h-48 mb-8" src="{{ .Permalink }}" alt="{{ $.Title }}" style="height:300px; object-fit:cover; object-position: center;">
+            {{ end }}
+            <header class="mb-4 lg:mb-6">
+                <h1 class="mb-4 text-3xl font-extrabold leading-tight text-neutral-900 lg:mb-6 lg:text-4xl dark:text-white">{{ .Title }}</h1>
+                <p class="text-base text-neutral-500 dark:text-neutral-400">{{ .Date | time.Format ":date_medium" }}</p>
+            </header>
+            <pre class="mx-auto font-sans text-neutral-900 dark:text-neutral-300 whitespace-break-spaces">
+                {{ .Content }}
+            </pre>
+      </article>
+  </div>
+</main>
 
 {{ end }}

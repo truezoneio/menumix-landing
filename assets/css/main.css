@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-red-50: oklch(97.05% 0.013 17.38);
+  --color-red-100: oklch(93.56% 0.031 17.72);
+  --color-red-200: oklch(88.45% 0.059 18.33);
+  --color-red-300: oklch(80.77% 0.103 19.57);
+  --color-red-400: oklch(71.06% 0.166 22.22);
+  --color-red-500: oklch(63.68% 0.208 25.33);
+  --color-red-600: oklch(57.71% 0.215 27.33);
+  --color-red-700: oklch(44.21% 0.163 27.12);
+  --color-red-800: oklch(29.12% 0.095 25.28);
+  --color-red-900: oklch(21.65% 0.059 23.41);
+  --color-red-950: oklch(17.38% 0.040 22.19);
+}
+
+@source "hugo_stats.json";

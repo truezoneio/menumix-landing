@@ -1,12 +1,17 @@
-<nav aria-label="breadcrumb" class="breadcrumb m-0">
-    <ol class="breadcrumb m-0">
-      {{ range .Ancestors.Reverse }}
-        <li class="breadcrumb-item">
-          <a class="small text-decoration-none text-muted" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-        </li>
-      {{ end }}
-      <li class="breadcrumb-item active">
-        <a class="small text-decoration-none link-danger" aria-current="page" href="{{ .Permalink }}">{{ .LinkTitle | truncate 20 "..." }}</a>
+<nav aria-label="breadcrumb" class="my-2">
+  <ol class="flex flex-wrap text-md text-neutral-500 space-x-2">
+    {{ range .Ancestors.Reverse }}
+      <li class="flex items-center">
+        <a href="{{ .Permalink }}" class="hover:text-neutral-700">
+          {{ .LinkTitle }}
+        </a>
+        <span class="mx-2 text-neutral-400">/</span>
       </li>
-    </ol>
+    {{ end }}
+    <li class="flex items-center text-red-600 font-medium" aria-current="page">
+      <a href="{{ .Permalink }}" class="truncate max-w-[160px] block">
+        {{ .LinkTitle | truncate 20 "..." }}
+      </a>
+    </li>
+  </ol>
 </nav>
