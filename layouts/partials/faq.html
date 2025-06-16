@@ -1,0 +1,34 @@
+<section class="bg-white dark:bg-neutral-900" id="faq">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <h4 class="text-1xl tracking-tight font-bold text-red-500 dark:text-red-500">{{ i18n "faq_subtitle" }}</h4>
+    <h2 class="mb-8 text-4xl tracking-tight font-bold text-neutral-900 dark:text-white">{{ i18n "faq_title" }}</h2>
+    <div class="grid pt-8 text-left border-t border-neutral-200 md:gap-16 dark:border-neutral-700 md:grid-cols-2">
+      <div>
+        {{ range seq 1 3 }}
+        <div class="mb-10">
+          <h3 class="flex items-center mb-4 text-lg font-medium text-neutral-900 dark:text-white">
+            <svg class="flex-shrink-0 mr-2 w-5 h-5 text-red-400 dark:text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+            {{ i18n (print "faq_" . "_q") }}
+          </h3>
+          <p class="text-neutral-500 dark:text-neutral-400">
+            {{ i18n (print "faq_" . "_a") }}
+          </p>
+        </div>
+        {{ end }}
+      </div>
+      <div>
+        {{ range seq 4 6 }}
+        <div class="mb-10">
+          <h3 class="flex items-center mb-4 text-lg font-medium text-neutral-900 dark:text-white">
+            <svg class="flex-shrink-0 mr-2 w-5 h-5 text-red-400 dark:text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+            {{ i18n (print "faq_" . "_q") }}
+          </h3>
+          <p class="text-neutral-500 dark:text-neutral-400">
+            {{ i18n (print "faq_" . "_a") }}
+          </p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

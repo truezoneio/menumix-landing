@@ -1,0 +1,67 @@
+{
+   "hero_title":  "Create Free QR Menu",
+   "hero_subtitle": "Take orders from tables",
+   "hero_description": "Provide your customers with a contactless, fast, and modern ordering experience. Digitize your business with a QR menu and simplify your order and restaurant management processes.",
+   "hero_cta_button": "Create Your Free Menu",
+   "hero_info_button": "Learn More",
+   
+   "features_subtitle": "Features",
+   "features_title": "Everything You Need to Manage Your QR Menu and Restaurant",
+   "features_description": "Digitize your restaurant, simplify orders, and manage your operations with a modern system",
+   "feature_1_title": "QR Menu",
+   "feature_1_description": "Customers can quickly view your menu and place orders by scanning the QR code with their mobile devices",
+   "feature_2_title": "Order Management",
+   "feature_2_description": "Easily manage your orders, send them to the kitchen, and track the process",
+   "feature_3_title": "Table Tracking",
+   "feature_3_description": "Track which table placed the order in real-time with separate QR codes for each table",
+   "feature_4_title": "Product and Menu Management",
+   "feature_4_description": "Easily add products, categorize them, and update your menu in real-time",
+   "feature_5_title": "Reporting and Analytics",
+   "feature_5_description": "Easily analyze your daily sales, product performance, and order trends",
+   "feature_6_title": "Staff and Access Control",
+   "feature_6_description": "Define separate authorizations for different roles such as waiter, kitchen, and manager",
+
+   "pricing_subtitle": "Pricing",
+   "pricing_title": "Affordable Plans to Grow Your Business",
+   "pricing_description": "Create and manage your QR menu with our plans tailored to your business needs",
+
+   "pricing_free_title": "Basic",
+   "pricing_free_description": "Ideal for beginners, basic features",
+   "pricing_free_price": "Free",
+
+   "pricing_pro_title": "Professional",
+   "pricing_pro_description": "Advanced features and more control",
+   "pricing_pro_price_discount": "$20",
+   "pricing_pro_price": "$15",
+   "pricing_pro_month": "month",
+
+   "pricing_feature_1": "Unlimited product and category additions",
+   "pricing_feature_2": "Unlimited table and QR code creation",
+   "pricing_feature_3": "Product features and options",
+   "pricing_feature_4": "Menu theme and color customization",
+   "pricing_feature_5": "Order taking from tables via QR code",
+   "pricing_feature_6": "Order management and kitchen integration",
+   "pricing_feature_7": "Account management and payment tracking",
+   "pricing_feature_8": "Detailed reporting and statistics",
+   "pricing_feature_9": "Unlimited user and permission management",
+
+   "faq_subtitle": "FAQ",
+   "faq_title": "Frequently Asked Questions",
+   
+   "faq_1_q": "Is the Basic plan really free?",
+   "faq_1_a": "Yes, the Basic plan is completely free and includes core features like menu setup, QR code generation, and basic order tracking.",
+   "faq_2_q": "What is a QR Menu and how does it work?",
+   "faq_2_a": "A QR Menu allows your customers to scan a QR code with their mobile devices to instantly view your restaurant’s menu and place orders without needing physical menus or staff intervention.",
+   "faq_3_q": "Can I customize the menu design and colors?",
+   "faq_3_a": "Yes, with the Professional plan you can fully customize the menu theme and colors to match your brand identity.",
+   "faq_4_q": "Is there a limit to how many products or tables I can add?",
+   "faq_4_a": "No, you can add unlimited products, categories, and tables in both the Basic and Professional plans.",
+   "faq_5_q": "How do QR orders get sent to the kitchen?",
+   "faq_5_a": "Orders placed via QR code are instantly sent to the kitchen panel, allowing staff to view and prepare orders in real-time.",
+   "faq_6_q": "Can I assign different roles to my staff?",
+   "faq_6_a": "Absolutely. You can assign roles like waiter, kitchen staff, or manager, each with custom access permissions.",
+
+   "blog_title": "Blog",
+   "blog_description": "Explore our newest updates and latest blog posts."
+}
+

@@ -1,21 +1,158 @@
 baseURL = "https://menumix.app"
 title = "Menumix"
-languageCode = "en-us"
 enableRobotsTXT = true
+
+defaultContentLanguage = 'tr'
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
+disableLanguages = []
+
+[languages]
+  [languages.tr]
+    contentDir = 'content/tr'
+    disabled = false
+    languageCode = 'tr'
+    languageDirection = 'ltr'
+    languageName = 'Turkish'
+    title = 'Menumix'
+    weight = 1
+
+    [[languages.tr.menu.main]]
+      name = "Anasayfa"
+      url = "/tr/"
+      weight = 10
+
+    [[languages.tr.menu.main]]
+      name = "Özellikler"
+      url = "/tr/#features"
+      weight = 10
+
+    [[languages.tr.menu.main]]
+      name = "Fiyatlandırma"
+      url = "/tr/fiyatlandirma"
+      weight = 20
+
+    [[languages.tr.menu.main]]
+      name = "SSS"
+      url = "/tr/sss"
+      weight = 30
+
+    [[languages.tr.menu.main]]
+      name = "Blog"
+      url = "/tr/blog"
+      weight = 40
+
+    [[languages.tr.menu.features]]
+      name = "QR Menü"
+      url = "/tr/ozellikler/qr-menu"
+      weight = 1
+
+    [[languages.tr.menu.features]]
+      name = "Sipariş Yönetimi"
+      url = "/tr/ozellikler/siparis-yonetimi"
+      weight = 2
+
+    [[languages.tr.menu.features]]
+      name = "Hesap Yönetimi"
+      url = "/tr/ozellikler/masa-yonetimi"
+      weight = 3
+
+    [[languages.tr.menu.features]]
+      name = "Ürün ve Menü Yönetimi"
+      url = "/tr/ozellikler/urun-ve-menu-yonetimi"
+      weight = 4
+
+    [[languages.tr.menu.features]]
+      name = "Raporlama ve Analitik"
+      url = "/tr/ozellikler/raporlama"
+      weight = 5
+
+    [[languages.tr.menu.features]]
+      name = "Personel ve Erişim Kontrolü"
+      url = "/tr/ozellikler/personel"
+      weight = 6
+
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Menumix'
+    weight = 2
+
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/en/"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      name = "Features"
+      url = "/en/#features"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      name = "Pricing"
+      url = "/en/pricing"
+      weight = 20
+
+    [[languages.en.menu.main]]
+      name = "FAQ"
+      url = "/en/faq"
+      weight = 30
+
+    [[languages.en.menu.main]]
+      name = "Blog"
+      url = "/en/blog"
+      weight = 40
+
+    [[languages.en.menu.features]]
+      name = "QR Menu"
+      url = "/en/features/qr-menu"
+      weight = 1
+
+    [[languages.en.menu.features]]
+      name = "Order Management"
+      url = "/en/features/orders"
+      weight = 2
+
+    [[languages.en.menu.features]]
+      name = "Table Bills"
+      url = "/en/features/tables"
+      weight = 3
+
+    [[languages.en.menu.features]]
+      name = "Product and Menu Management"
+      url = "/en/features/menu"
+      weight = 4
+
+    [[languages.en.menu.features]]
+      name = "Reporting and Analytics"
+      url = "/en/features/analytics"
+      weight = 5
+
+    [[languages.en.menu.features]]
+      name = "Staff and Access Control"
+      url = "/en/features/staff"
+      weight = 6
 
 [build]
   [build.buildStats]
     enable = true
+
   [[build.cachebusters]]
-    source = 'assets/notwatching/hugo_stats\.json'
+    source = 'assets/notwatching/hugo_stats\\.json'
     target = 'css'
+
   [[build.cachebusters]]
-    source = '(postcss|tailwind)\.config\.js'
+    source = '(postcss|tailwind)\\.config\\.js'
     target = 'css'
+
 [module]
   [[module.mounts]]
     source = 'assets'
     target = 'assets'
+
   [[module.mounts]]
     disableWatch = true
     source = 'hugo_stats.json'

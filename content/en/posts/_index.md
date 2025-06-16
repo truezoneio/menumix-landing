@@ -1,6 +1,6 @@
 +++
 title = "Blog Posts"
-layout = "posts/list"
+layout = "blog/list"
 +++
 
 Explore our latest blog posts and updates.

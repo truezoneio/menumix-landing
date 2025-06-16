@@ -1,0 +1,70 @@
+{
+   "hero_title": "Ücretsiz QR Menü oluştur",
+   "hero_subtitle": "Masalarından sipariş al",
+   "hero_description": "Müşterilerinize temassız, hızlı ve modern bir sipariş deneyimi sunun. QR menü ile işletmenizi dijitalleştirin, sipariş ve restoran yönetim süreçlerinizi kolaylaştırın",
+   "hero_cta_button": "Ücretsiz Menünü Oluştur",
+   "hero_info_button": "İncele",
+
+   "features_subtitle": "Özellikler",
+   "features_title": "QR Menü ve Restoranınızı Yönetmek İçin İhtiyacınız Olan Her Şey",
+   "features_description": "Restoranınızı dijitalleştirin, siparişleri kolaylaştırın ve operasyonlarınızı modern bir sistemle yönetin",
+   "feature_1_title": "QR Menü",
+   "feature_1_description": "Müşterileriniz QR kodu okutarak menünüzü mobil cihazlarında hızlıca görüntüleyebilir ve sipariş verebilir",
+   "feature_2_title": "Sipariş Yönetimi",
+   "feature_2_description": "Siparişlerinizi kolayca yönetin, mutfağa aktarın ve süreci takip edin",
+   "feature_3_title": "Masa Takibi",
+   "feature_3_description": "Her masa için ayrı QR kodlar ile hangi masadan sipariş verildiğini anlık olarak takip edin",
+   "feature_4_title": "Ürün ve Menü Yönetimi",
+   "feature_4_description": "Kolayca ürün ekleyin, kategorilere ayırın ve menünüzü gerçek zamanlı olarak güncelleyin",
+   "feature_5_title": "Raporlama ve Analitik",
+   "feature_5_description": "Günlük satışlarınızı, ürün performansını ve sipariş trendlerini kolayca analiz edin",
+   "feature_6_title": "Personel ve Erişim Kontrolü",
+   "feature_6_description": "Garson, mutfak ve yönetici gibi farklı roller için ayrı yetkilendirmeler tanımlayın",
+
+   "pricing_subtitle": "Fiyatlar",
+   "pricing_title": "İşletmenizi Büyütmek İçin Uygun Fiyatlı Planlar",
+   "pricing_description": "İşletmenizin ihtiyaçlarına uygun planlarımızla QR menünüzü oluşturun ve yönetin",
+   
+   "pricing_free_title": "Temel",
+   "pricing_free_description": "Yeni başlayanlar için ideal, temel özellikler",
+   "pricing_free_price": "Ücretsiz",
+
+   "pricing_pro_title": "Profesyonel",
+   "pricing_pro_description": "Gelişmiş özellikler ve daha fazla kontrol",
+   "pricing_pro_price_discount": "1000₺",
+   "pricing_pro_price": "750₺",
+   "pricing_pro_month": "ay",
+
+   "pricing_feature_1": "Sınırsız ürün ve kategori ekleme",
+   "pricing_feature_2": "Sınırsız masa ve QR kodu oluşturma",
+   "pricing_feature_3": "Ürün özellikleri ve seçenekleri",
+   "pricing_feature_4": "Menü teması ve renkleri özelleştirme",
+   "pricing_feature_5": "QR kodu ile masalardan sipariş alma",
+   "pricing_feature_6": "Sipariş yönetimi ve mutfak entegrasyonu",
+   "pricing_feature_7": "Hesap yönetimi ve ödeme takibi",
+   "pricing_feature_8": "Detaylı raporlama ve istatistikler",
+   "pricing_feature_9": "Sınırsız kullanıcı ve izin yönetimi",
+
+   "faq_subtitle": "SSS",
+   "faq_title": "Sıkça Sorulan Sorular",
+
+   "faq_1_q": "Temel plan gerçekten ücretsiz mi?",
+   "faq_1_a": "Evet, Temel plan tamamen ücretsizdir ve menü oluşturma, QR kod üretimi ve temel sipariş takibi gibi temel özellikleri içerir.",
+   "faq_2_q": "QR Menü nedir ve nasıl çalışır?",
+   "faq_2_a": "QR Menü, müşterilerinizin mobil cihazlarıyla QR kodu tarayarak menünüzü anında görüntüleyip sipariş verebileceği temassız bir dijital menü sistemidir.",
+
+   "faq_3_q": "Menü tasarımını ve renklerini özelleştirebilir miyim?",
+   "faq_3_a": "Evet, Profesyonel plan ile menünüzün temasını ve renklerini markanıza uygun şekilde tamamen özelleştirebilirsiniz.",
+
+   "faq_4_q": "Kaç ürün veya masa ekleyebilirim, bir sınır var mı?",
+   "faq_4_a": "Hayır, hem Temel hem de Profesyonel planlarda sınırsız ürün, kategori ve masa ekleyebilirsiniz.",
+
+   "faq_5_q": "QR ile verilen siparişler mutfağa nasıl iletiliyor?",
+   "faq_5_a": "Müşterilerin QR kod ile verdiği siparişler anlık olarak mutfak paneline iletilir ve mutfak personeli tarafından anında görüntülenebilir.",
+
+   "faq_6_q": "Personelime farklı roller atayabilir miyim?",
+   "faq_6_a": "Elbette. Garson, mutfak çalışanı veya yönetici gibi roller tanımlayabilir ve her role özel yetkiler verebilirsiniz.",
+
+   "blog_title": "Blog",
+   "blog_description": "En yeni haberleri ve güncellemelerimizi keşfedin."
+}
