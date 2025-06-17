@@ -1,9 +1,12 @@
 {
+
+   "header_login": "Login",
+
    "hero_title":  "Create Free QR Menu",
    "hero_subtitle": "Take orders from tables",
    "hero_description": "Provide your customers with a contactless, fast, and modern ordering experience. Digitize your business with a QR menu and simplify your order and restaurant management processes.",
-   "hero_cta_button": "Create Your Free Menu",
-   "hero_info_button": "Learn More",
+   "hero_cta_button": "Create For Free",
+   "hero_sample_button": "Sample Menu",
    
    "features_subtitle": "Features",
    "features_title": "Everything You Need to Manage Your QR Menu and Restaurant",
@@ -20,6 +23,22 @@
    "feature_5_description": "Easily analyze your daily sales, product performance, and order trends",
    "feature_6_title": "Staff and Access Control",
    "feature_6_description": "Define separate authorizations for different roles such as waiter, kitchen, and manager",
+
+   "highlight_1_subtitle": "Digital Convenience",
+   "highlight_1_title": "QR Menu for Instant Ordering",
+   "highlight_1_description": "Let your customers instantly access your menu by simply scanning a QR code. Eliminate printed menus, reduce wait times, and offer a fast, contactless ordering experience right from their mobile devices.",
+
+   "highlight_2_subtitle": "Effortless Management",
+   "highlight_2_title": "Real-Time Order Tracking",
+   "highlight_2_description": "Receive and manage orders as they’re placed, with real-time updates and clear order status flows. Kitchen staff and waiters can see and respond to orders instantly, ensuring efficient service and fewer errors.",
+
+   "highlight_3_subtitle": "Total Control",
+   "highlight_3_title": "Dynamic Menu and Product Editing",
+   "highlight_3_description": "Easily create, update, and organize products and categories with a few clicks. Whether you're adding new dishes or updating prices, your digital menu is always current and accessible to your customers.",
+
+   "highlight_4_subtitle": "Insights That Matter",
+   "highlight_4_title": "Reports and User Access Management",
+   "highlight_4_description": "Track your business performance with detailed sales reports and order statistics. Define roles for your team with permission controls, from waiters to managers, ensuring the right people see the right data.",
 
    "pricing_subtitle": "Pricing",
    "pricing_title": "Affordable Plans to Grow Your Business",
@@ -62,6 +81,9 @@
    "faq_6_a": "Absolutely. You can assign roles like waiter, kitchen staff, or manager, each with custom access permissions.",
 
    "blog_title": "Blog",
-   "blog_description": "Explore our newest updates and latest blog posts."
+   "blog_description": "Explore our newest updates and latest blog posts.",
+
+   "menu_legal": "Legal",
+   "menu_features": "Features"
 }
 

@@ -1,4 +1,27 @@
 {{ define "main" }}
+<style>
+    article h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        font-size:  1.25rem;
+        margin-bottom: 1em;
+    }
+    article p {
+        margin-bottom: 2em;
+    }
+    article ul {
+        margin-bottom: 1em;
+        padding-left: 1.5em;
+        list-style-type: disc;
+    }
+    article ul li {
+        margin-bottom: 0.5em;
+        line-height: 1.5;
+
+    }
+    article .format {
+        overflow-wrap: break-word;
+    }
+</style>
 <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-neutral-900 antialiased">
     <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
         <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -10,9 +33,7 @@
                 <h1 class="mb-4 text-3xl font-extrabold leading-tight text-neutral-900 lg:mb-6 lg:text-4xl dark:text-white">{{ .Title }}</h1>
                 <p class="text-base text-neutral-500 dark:text-neutral-400">{{ .Date | time.Format ":date_medium" }}</p>
             </header>
-            <pre class="mx-auto font-sans text-neutral-900 dark:text-neutral-300 whitespace-break-spaces">
-                {{ .Content }}
-            </pre>
+            {{ .Content }}
       </article>
   </div>
 </main>

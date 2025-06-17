@@ -9,7 +9,6 @@ disableLanguages = []
 
 [languages]
   [languages.tr]
-    contentDir = 'content/tr'
     disabled = false
     languageCode = 'tr'
     languageDirection = 'ltr'
@@ -20,60 +19,63 @@ disableLanguages = []
     [[languages.tr.menu.main]]
       name = "Anasayfa"
       url = "/tr/"
-      weight = 10
+      weight = 1
 
     [[languages.tr.menu.main]]
       name = "Özellikler"
       url = "/tr/#features"
-      weight = 10
+      weight = 2
 
     [[languages.tr.menu.main]]
       name = "Fiyatlandırma"
       url = "/tr/fiyatlandirma"
-      weight = 20
+      weight = 3
 
     [[languages.tr.menu.main]]
       name = "SSS"
       url = "/tr/sss"
-      weight = 30
+      weight = 4
 
     [[languages.tr.menu.main]]
       name = "Blog"
       url = "/tr/blog"
-      weight = 40
+      weight = 5
 
     [[languages.tr.menu.features]]
       name = "QR Menü"
-      url = "/tr/ozellikler/qr-menu"
+      url = "/tr/qr-menu"
       weight = 1
 
     [[languages.tr.menu.features]]
       name = "Sipariş Yönetimi"
-      url = "/tr/ozellikler/siparis-yonetimi"
+      url = "/tr/siparis-yonetimi"
       weight = 2
 
     [[languages.tr.menu.features]]
       name = "Hesap Yönetimi"
-      url = "/tr/ozellikler/masa-yonetimi"
+      url = "/tr/masa-yonetimi"
       weight = 3
 
     [[languages.tr.menu.features]]
-      name = "Ürün ve Menü Yönetimi"
-      url = "/tr/ozellikler/urun-ve-menu-yonetimi"
+      name = "Raporlama ve Analitik"
+      url = "/tr/raporlama"
       weight = 4
 
-    [[languages.tr.menu.features]]
-      name = "Raporlama ve Analitik"
-      url = "/tr/ozellikler/raporlama"
-      weight = 5
+    [[languages.tr.menu.legal]]
+      name = "Kullanım Koşulları"
+      url = "/tr/kullanim-kosullari"
+      weight = 1
 
-    [[languages.tr.menu.features]]
-      name = "Personel ve Erişim Kontrolü"
-      url = "/tr/ozellikler/personel"
-      weight = 6
+    [[languages.tr.menu.legal]]
+      name = "Gizlilik Politikası"
+      url = "/tr/gizlilik-politikası"
+      weight = 2
+    [[languages.tr.menu.legal]]
+      name = "Veri İşleme Sözleşmesi"
+      url = "/tr/veri-isleme-sozlesmesi"
+      weight = 3
 
   [languages.en]
-    contentDir = 'content/en'
     disabled = false
     languageCode = 'en'
     languageDirection = 'ltr'
@@ -84,57 +86,61 @@ disableLanguages = []
     [[languages.en.menu.main]]
       name = "Home"
       url = "/en/"
-      weight = 10
+      weight = 1
 
     [[languages.en.menu.main]]
       name = "Features"
       url = "/en/#features"
-      weight = 10
+      weight = 2
 
     [[languages.en.menu.main]]
       name = "Pricing"
       url = "/en/pricing"
-      weight = 20
+      weight = 3
 
     [[languages.en.menu.main]]
       name = "FAQ"
       url = "/en/faq"
-      weight = 30
+      weight = 4
 
     [[languages.en.menu.main]]
       name = "Blog"
       url = "/en/blog"
-      weight = 40
+      weight = 5
 
     [[languages.en.menu.features]]
       name = "QR Menu"
-      url = "/en/features/qr-menu"
+      url = "/en/qr-menu"
       weight = 1
 
     [[languages.en.menu.features]]
       name = "Order Management"
-      url = "/en/features/orders"
+      url = "/en/orders"
       weight = 2
 
     [[languages.en.menu.features]]
       name = "Table Bills"
-      url = "/en/features/tables"
+      url = "/en/tables"
       weight = 3
 
     [[languages.en.menu.features]]
-      name = "Product and Menu Management"
-      url = "/en/features/menu"
+      name = "Reporting and Analytics"
+      url = "/en/analytics"
       weight = 4
 
-    [[languages.en.menu.features]]
-      name = "Reporting and Analytics"
-      url = "/en/features/analytics"
-      weight = 5
+    [[languages.en.menu.legal]]
+      name = "Terms of Service"
+      url = "/en/terms"
+      weight = 1
 
-    [[languages.en.menu.features]]
-      name = "Staff and Access Control"
-      url = "/en/features/staff"
-      weight = 6
+    [[languages.en.menu.legal]]
+      name = "Privacy Policy"
+      url = "/en/privacy"
+      weight = 2
+    [[languages.en.menu.legal]]
+      name = "Data Processing Agreement"
+      url = "/en/dpa"
+      weight = 3
 
 [build]
   [build.buildStats]

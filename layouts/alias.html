@@ -10,18 +10,27 @@
     </noscript>
     <script>
       ;(function () {
-        // Only do i18n at root, 
-        // otherwise, redirect immediately
+        // If user is not on root, redirect immediately
         if (window.location.pathname !== '/') {
           window.location.replace('{{ .Permalink }}')
           return
         }
 
+        // Check localStorage first
+        var storedLang = localStorage.getItem('preferredLanguage')
+        if (storedLang === 'en') {
+          window.location.replace('/en/')
+          return
+        } else if (storedLang === 'tr') {
+          window.location.replace('/tr/')
+          return
+        }
+
+        // If not stored, detect browser language
         var getFirstBrowserLanguage = function () {
           var nav = window.navigator,
-          browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
-          i,
-          language
+            browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
+            i, language
 
           if (Array.isArray(nav.languages)) {
             for (i = 0; i < nav.languages.length; i++) {
@@ -32,26 +41,27 @@
             }
           }
 
-          // support for other well known properties in browsers
           for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
             language = nav[browserLanguagePropertyKeys[i]]
             if (language && language.length) {
               return language
             }
           }
+
           return 'en'
         }
 
         var preferLang = getFirstBrowserLanguage()
         if (preferLang.indexOf('en') !== -1) {
-          // visitor prefers English
+          localStorage.setItem('preferredLanguage', 'en')
           window.location.replace('/en/')
         } else {
-          // fallback to Turkish
+          localStorage.setItem('preferredLanguage', 'tr')
           window.location.replace('/tr/')
         }
       })()
     </script>
+
 </head>
 <body>
 <h1>Rerouting</h1>

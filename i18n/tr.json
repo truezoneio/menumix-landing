@@ -1,9 +1,12 @@
 {
+
+   "header_login": "Giriş",
+
    "hero_title": "Ücretsiz QR Menü oluştur",
    "hero_subtitle": "Masalarından sipariş al",
    "hero_description": "Müşterilerinize temassız, hızlı ve modern bir sipariş deneyimi sunun. QR menü ile işletmenizi dijitalleştirin, sipariş ve restoran yönetim süreçlerinizi kolaylaştırın",
-   "hero_cta_button": "Ücretsiz Menünü Oluştur",
-   "hero_info_button": "İncele",
+   "hero_cta_button": "Ücretsiz Oluştur",
+   "hero_sample_button": "Örnek Menü",
 
    "features_subtitle": "Özellikler",
    "features_title": "QR Menü ve Restoranınızı Yönetmek İçin İhtiyacınız Olan Her Şey",
@@ -20,6 +23,22 @@
    "feature_5_description": "Günlük satışlarınızı, ürün performansını ve sipariş trendlerini kolayca analiz edin",
    "feature_6_title": "Personel ve Erişim Kontrolü",
    "feature_6_description": "Garson, mutfak ve yönetici gibi farklı roller için ayrı yetkilendirmeler tanımlayın",
+
+   "highlight_1_subtitle": "Dijital Kolaylık",
+   "highlight_1_title": "Anında Sipariş için QR Menü",
+   "highlight_1_description": "Müşterileriniz yalnızca bir QR kodu okutarak menünüze anında erişebilir. Basılı menülere son verin, bekleme sürelerini azaltın ve mobil cihazlardan hızlı, temassız bir sipariş deneyimi sunun.",
+
+   "highlight_2_subtitle": "Kolay Yönetim",
+   "highlight_2_title": "Gerçek Zamanlı Sipariş Takibi",
+   "highlight_2_description": "Siparişleri anında alın ve yönetin, güncel durumları gerçek zamanlı olarak izleyin. Mutfak ve garson ekipleri siparişleri anında görebilir, hızlı ve hatasız hizmet sağlayabilir.",
+
+   "highlight_3_subtitle": "Tam Kontrol",
+   "highlight_3_title": "Dinamik Menü ve Ürün Düzenleme",
+   "highlight_3_description": "Ürünleri ve kategorileri kolayca oluşturun, güncelleyin ve yönetin. Yeni yemekler ekleyin veya fiyatları değiştirin; menünüz anında güncellenir ve müşterilere sunulur.",
+
+   "highlight_4_subtitle": "Önemli Veriler",
+   "highlight_4_title": "Raporlama ve Yetkilendirme Yönetimi",
+   "highlight_4_description": "İş performansınızı satış raporları ve sipariş istatistikleriyle analiz edin. Garsondan yöneticiye kadar farklı roller tanımlayarak ekip üyelerine uygun yetkiler atayın.",
 
    "pricing_subtitle": "Fiyatlar",
    "pricing_title": "İşletmenizi Büyütmek İçin Uygun Fiyatlı Planlar",
@@ -66,5 +85,8 @@
    "faq_6_a": "Elbette. Garson, mutfak çalışanı veya yönetici gibi roller tanımlayabilir ve her role özel yetkiler verebilirsiniz.",
 
    "blog_title": "Blog",
-   "blog_description": "En yeni haberleri ve güncellemelerimizi keşfedin."
+   "blog_description": "En yeni haberleri ve güncellemelerimizi keşfedin.",
+
+   "menu_legal": "Yasal",
+   "menu_features": "Özellikler"
 }
