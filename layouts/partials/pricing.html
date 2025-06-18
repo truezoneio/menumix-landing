@@ -2,12 +2,12 @@
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
       <h1 class="mb-4 text-1xl tracking-tight font-bold text-red-500 dark:text-red-500">{{ i18n "pricing_subtitle" }}</h1>
-      <h2 class="mb-4 text-4xl tracking-tight font-bold text-neutral-900 dark:text-white">{{ i18n "pricing_title" }}</h2>
+      <h2 class="mb-4 text-5xl tracking-tight font-bold text-neutral-900 dark:text-white">{{ i18n "pricing_title" }}</h2>
       <p class="mb-5 font-light text-neutral-500 sm:text-xl dark:text-neutral-400">{{ i18n "pricing_description" }}</p>
     </div>
-    <div class="flex flex-col md:flex-row max-w-3xl mx-auto gap-8">
+    <div class="flex flex-col md:flex-row max-w-3xl mx-auto gap-8 items-center">
       <!-- Pricing Card -->
-      <div class="flex flex-col p-6 mx-auto w-full text-neutral-900 bg-neutral-50 rounded-lg xl:p-8 dark:bg-neutral-900 dark:text-white">
+      <div class="flex flex-col p-6 mx-auto w-full text-neutral-900 bg-neutral-100 dark:bg-neutral-800 rounded-lg xl:p-8 dark:text-white">
         <h3 class="mb-4 text-2xl font-semibold">{{ i18n "pricing_free_title" }}</h3>
         <p class="font-light text-neutral-500 sm:text-lg dark:text-neutral-400">{{ i18n "pricing_free_description" }}</p>
         <div class="flex justify-start items-baseline my-8">
@@ -16,28 +16,28 @@
         <!-- List -->
         <ul role="list" class="mb-8 space-y-4 text-left">
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
             <span>{{ i18n "pricing_feature_1" }}</span>
           </li>
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
             <span>{{ i18n "pricing_feature_2" }}</span>
           </li>
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
             <span>{{ i18n "pricing_feature_3" }}</span>
           </li>
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
@@ -45,52 +45,59 @@
           </li>
         </ul>
       </div>
-      <div class="flex flex-col p-6 mx-auto w-full text-neutral-900 border-2 border-red-500 rounded-lg xl:p-8 dark:text-white">
-        <h3 class="mb-4 text-2xl font-semibold tet-">{{ i18n "pricing_pro_title" }}</h3>
+      <div class="flex flex-col p-6 mx-auto w-full bg-black text-neutral-900 rounded-lg xl:p-8 dark:text-white">
+        <h3 class="mb-4 text-2xl font-semibold text-white">{{ i18n "pricing_pro_title" }}</h3>
         <p class="font-light text-neutral-500 sm:text-lg dark:text-neutral-400">{{ i18n "pricing_pro_description" }}</p>
         <div class="my-8">
           <div class="flex justify-start items-baseline-last">
             <span class="mr-2 text-lg text-red-500 line-through">{{ i18n "pricing_pro_price_discount" }}</span>
-            <span class="mr-2 text-4xl font-bold">{{ i18n "pricing_pro_price" }}</span>
+            <span class="mr-2 text-4xl font-bold text-white">{{ i18n "pricing_pro_price" }}</span>
             <span class="mr-2 text-xl text-neutral-500">/{{ i18n "pricing_pro_month" }}</span>
           </div>
         </div>
         <!-- List -->
         <ul role="list" class="mb-8 space-y-4 text-left">
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
-            <span>{{ i18n "pricing_feature_5" }}</span>
+            <span class="text-neutral-400">{{ i18n "pricing_feature_5" }}</span>
           </li>
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
-            <span>{{ i18n "pricing_feature_6" }}</span>
+            <span class="text-neutral-400">{{ i18n "pricing_feature_6" }}</span>
           </li>
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
-            <span>{{ i18n "pricing_feature_7" }}</span>
+            <span class="text-neutral-400">{{ i18n "pricing_feature_7" }}</span>
           </li>
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
-            <span>{{ i18n "pricing_feature_8" }}</span>
+            <span class="text-neutral-400">{{ i18n "pricing_feature_8" }}</span>
           </li>
           <li class="flex items-start space-x-3">
-            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
               <circle cx="12" cy="12" r="10"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
-            <span>{{ i18n "pricing_feature_9" }}</span>
+            <span class="text-neutral-400">{{ i18n "pricing_feature_9" }}</span>
+          </li>
+          <li class="flex items-start space-x-3">
+            <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            <span class="text-neutral-400">{{ i18n "pricing_feature_all" }}</span>
           </li>
         </ul>
       </div>
