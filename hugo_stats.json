@@ -38,7 +38,6 @@
       "ul"
     ],
     "classes": [
-      "...",
       "absolute",
       "antialiased",
       "bg-black",
@@ -103,6 +102,7 @@
       "hover:bg-neutral-100",
       "hover:bg-neutral-50",
       "hover:bg-neutral-700",
+      "hover:bg-neutral-800",
       "hover:bg-red-500",
       "hover:bg-red-800",
       "hover:text-neutral-700",

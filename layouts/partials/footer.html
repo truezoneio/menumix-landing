@@ -10,8 +10,7 @@
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-white uppercase">{{ i18n "menu_language" }}</h2>
                     <div class="relative">
-                        
-                        <button onclick="toggleLangMenu()" class="...">
+                        <button onclick="toggleLangMenu()" class="flex items-center px-4 lg:px-5 py-2 lg:py-2.5 text-sm font-medium text-white hover:bg-neutral-800 rounded-lg border border-neutral-700">
                             {{ if eq site.Language.Lang "tr" }} 🇹🇷 Türkçe
                                 {{ else if eq site.Language.Lang "es" }} 🇪🇸 Español
                                 {{ else }} 🇺🇸 English
