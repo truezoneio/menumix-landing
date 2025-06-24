@@ -10,23 +10,33 @@
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-white uppercase">{{ i18n "menu_language" }}</h2>
                     <div class="relative">
-                        <button onclick="toggleLangMenu()" class="flex items-center px-4 lg:px-5 py-2 lg:py-2.5 text-sm font-medium text-white hover:bg-neutral-800 rounded-lg border border-neutral-700">
-                            {{ if eq site.Language.Lang "tr" }} 🇹🇷 Türkçe {{ else }} 🇺🇸 English {{ end }}
+                        
+                        <button onclick="toggleLangMenu()" class="...">
+                            {{ if eq site.Language.Lang "tr" }} 🇹🇷 Türkçe
+                                {{ else if eq site.Language.Lang "es" }} 🇪🇸 Español
+                                {{ else }} 🇺🇸 English
+                            {{ end }}
                             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
                         </button>
 
                         <ul id="lang-menu" class="absolute right-0 mt-2 z-50 hidden w-40 bg-neutral-800 rounded-lg border border-neutral-700 overflow-hidden">
                             <li>
-                            <a href="/tr/" onclick="setLang('tr')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                <a href="/tr/" onclick="setLang('tr')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
                                 🇹🇷 Türkçe
-                            </a>
+                                </a>
                             </li>
                             <li>
-                            <a href="/en/" onclick="setLang('en')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                <a href="/en/" onclick="setLang('en')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
                                 🇺🇸 English
-                            </a>
+                                </a>
                             </li>
-                        </ul>
+                            <li>
+                                <a href="/es/" onclick="setLang('es')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                🇪🇸 Español
+                                </a>
+                            </li>
+                            </ul>
+
                     </div>
                 </div>
                 <div>

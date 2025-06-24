@@ -141,6 +141,73 @@ disableLanguages = []
       name = "Data Processing Agreement"
       url = "/en/dpa"
       weight = 3
+  [languages.es]
+    disabled = false
+    languageCode = 'es'
+    languageDirection = 'ltr'
+    languageName = 'Español'
+    title = 'Menumix'
+    weight = 3
+
+    [[languages.es.menu.main]]
+      name = "Inicio"
+      url = "/es/"
+      weight = 1
+
+    [[languages.es.menu.main]]
+      name = "Características"
+      url = "/es/#features"
+      weight = 2
+
+    [[languages.es.menu.main]]
+      name = "Precios"
+      url = "/es/precios"
+      weight = 3
+
+    [[languages.es.menu.main]]
+      name = "FAQ"
+      url = "/es/faq"
+      weight = 4
+
+    [[languages.es.menu.main]]
+      name = "Blog"
+      url = "/es/blog"
+      weight = 5
+
+    [[languages.es.menu.features]]
+      name = "Carta QR"
+      url = "/es/qr-menu"
+      weight = 1
+
+    [[languages.es.menu.features]]
+      name = "Gestión de Pedidos"
+      url = "/es/ordenes"
+      weight = 2
+
+    [[languages.es.menu.features]]
+      name = "Cuentas por Mesa"
+      url = "/es/mesas"
+      weight = 3
+
+    [[languages.es.menu.features]]
+      name = "Reportes y Analíticas"
+      url = "/es/analiticas"
+      weight = 4
+
+    [[languages.es.menu.legal]]
+      name = "Términos de Servicio"
+      url = "/es/terminos"
+      weight = 1
+
+    [[languages.es.menu.legal]]
+      name = "Política de Privacidad"
+      url = "/es/privacidad"
+      weight = 2
+
+    [[languages.es.menu.legal]]
+      name = "Acuerdo de Procesamiento de Datos"
+      url = "/es/acuerdo-datos"
+      weight = 3
 
 [build]
   [build.buildStats]

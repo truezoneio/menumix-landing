@@ -1,0 +1,83 @@
+{
+  "header_login": "Iniciar sesión",
+
+  "hero_title": "Crea tu Carta Digital con Código QR",
+  "hero_subtitle": "Pide desde la mesa",
+  "hero_description": "Ofrece a tus clientes una experiencia de pedido sin contacto, rápida y moderna con una carta digital QR. Gestiona todos los procesos de pedidos y reportes desde un solo panel.",
+  "hero_cta_button": "Crear Carta Gratis",
+  "hero_sample_button": "Ver Ejemplo",
+
+  "highlight_1_subtitle": "Pide desde la mesa",
+  "highlight_1_title": "Pide desde la mesa con carta QR",
+  "highlight_1_description": "Tus clientes acceden a la carta digital escaneando un código QR, sin descargar apps. Con una interfaz rápida e intuitiva, pueden ver el menú, elegir platos y pedir directamente desde su mesa. Mejora la experiencia y acelera la rotación de mesas.",
+
+  "highlight_2_subtitle": "Gestión de cuentas",
+  "highlight_2_title": "Gestiona pedidos y pagos",
+  "highlight_2_description": "Controla en tiempo real los pedidos realizados por clientes o camareros. Acepta pagos en efectivo, tarjeta o vales, permite pagos divididos y combina o transfiere mesas fácilmente.",
+
+  "highlight_3_subtitle": "Estadísticas detalladas",
+  "highlight_3_title": "Analiza tu carta y el rendimiento de mesas",
+  "highlight_3_description": "Consulta tus ventas totales, informes de cierre, productos más vendidos, métodos de pago y gasto por mesa. Identifica tus horarios más ocupados y platos más populares. Toma decisiones basadas en datos con reportes semanales, mensuales y anuales.",
+
+  "highlight_4_subtitle": "Pantalla de cocina",
+  "highlight_4_title": "Pedidos directos a cocina",
+  "highlight_4_description": "Los pedidos realizados desde la carta QR se envían directamente a la pantalla de cocina. El personal ve qué se pidió, desde qué mesa y cuándo. Las cuentas se priorizan, se agiliza la preparación y el flujo del servicio se gestiona desde una pantalla centralizada.",
+
+  "pricing_subtitle": "Precios",
+  "pricing_title": "Crea tu Carta QR Digital Gratis",
+  "pricing_description": "Empieza gratis y cambia al plan profesional cuando necesites más funciones.",
+
+  "pricing_free_title": "Básico",
+  "pricing_free_description": "Crear y gestionar carta QR de forma gratuita.",
+  "pricing_free_price": "Gratis",
+
+  "pricing_pro_title": "Profesional",
+  "pricing_pro_description": "Pedidos desde mesa, gestión de cuentas, idiomas y estadísticas",
+  "pricing_pro_price_discount": "1000₺",
+  "pricing_pro_price": "750₺",
+  "pricing_pro_month": "mes",
+
+  "pricing_feature_1": "Productos y categorías ilimitadas",
+  "pricing_feature_2": "Mesas y códigos QR ilimitados",
+  "pricing_feature_3": "Variantes y opciones de productos",
+  "pricing_feature_4": "Personalización de tema y colores",
+  "pricing_feature_5": "URL personalizada para tu negocio",
+  "pricing_feature_6": "Pedidos desde la mesa con código QR",
+  "pricing_feature_7": "Seguimiento de pedidos y pantalla de cocina",
+  "pricing_feature_8": "Gestión de cuentas y pagos",
+  "pricing_feature_9": "Informes y estadísticas detalladas",
+  "pricing_feature_10": "Usuarios ilimitados y gestión de roles",
+  "pricing_feature_11": "Idiomas múltiples y traducción automática",
+  "pricing_feature_all": "Todas las funciones del plan gratuito",
+
+  "faq_subtitle": "Preguntas frecuentes",
+  "faq_title": "Preguntas Frecuentes",
+
+  "faq_1_q": "¿Qué es la carta QR y cómo funciona?",
+  "faq_1_a": "La carta QR es un sistema digital sin contacto que permite a tus clientes escanear un código QR con sus móviles para ver el menú y hacer pedidos al instante.",
+
+  "faq_2_q": "¿Qué incluye la carta QR gratuita?",
+  "faq_2_a": "Con la carta digital gratuita puedes crear productos, categorías y mesas ilimitadas. Puedes añadir información de contacto, redes sociales, horarios y Wi-Fi. Personaliza los colores y temas, elige tu URL y permite que tus clientes llamen al camarero desde la carta.",
+
+  "faq_3_q": "¿Qué ofrece el plan profesional?",
+  "faq_3_a": "El plan profesional permite recibir pedidos desde la mesa, gestionar cuentas y pedidos desde un solo panel, usar una pantalla de cocina en tiempo real y ver reportes de ventas detallados. Además, puedes traducir tu carta automáticamente a varios idiomas y asignar roles personalizados a tus empleados.",
+
+  "faq_4_q": "¿Puedo personalizar el diseño y colores del menú?",
+  "faq_4_a": "Sí, tanto en el plan gratuito como en el profesional puedes personalizar completamente el diseño y los colores del menú para adaptarlo a tu marca.",
+
+  "faq_5_q": "¿Cuántos productos o mesas puedo añadir?",
+  "faq_5_a": "Todos los planes permiten añadir productos, categorías y mesas ilimitadas. El plan profesional permite recibir pedidos ilimitados.",
+
+  "faq_6_q": "¿Mi carta QR tendrá su propia URL?",
+  "faq_6_a": "Sí. Durante el registro, eliges una URL única para tu negocio. Si ya está en uso, deberás elegir otra. Tus clientes accederán a tu carta usando esa URL.",
+
+  "faq_8_q": "¿Puedo asignar roles a mi personal?",
+  "faq_8_a": "En el plan profesional puedes asignar roles como camarero, cocina o administrador, y definir permisos específicos para cada uno.",
+
+  "blog_title": "Blog",
+  "blog_description": "Descubre nuestras últimas novedades y actualizaciones.",
+
+  "menu_legal": "Legal",
+  "menu_features": "Características",
+  "menu_language": "Idioma"
+}
