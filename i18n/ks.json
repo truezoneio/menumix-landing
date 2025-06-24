@@ -1,0 +1,78 @@
+{
+
+   "header_login": "Giriş",
+
+   "hero_title": "Ücretsiz QR Menü oluştur",
+   "hero_subtitle": "Masalarından sipariş al",
+   "hero_description": "Müşterilerinize temassız, hızlı ve modern bir sipariş deneyimi sunun. QR menü ile işletmenizi dijitalleştirin, sipariş ve restoran yönetim süreçlerinizi kolaylaştırın",
+   "hero_cta_button": "Ücretsiz Oluştur",
+   "hero_sample_button": "Örnek Menü",
+
+   "highlight_1_subtitle": "Hızlı siparişler",
+   "highlight_1_title": "QR Menü ile masalardan sipariş al",
+   "highlight_1_description": "Misafirleriniz masaya oturdukları anda QR kodu okutarak menünüze ulaşabilir, hiçbir uygulama indirmeden anında sipariş verebilirler. Kullanıcı dostu arayüzü sayesinde ürünleri kolayca inceleyebilir, seçenekleri belirleyip doğrudan sipariş gönderebilirler. Bu sayede hem garson ihtiyacı azalır hem de sipariş alma süresi ciddi şekilde kısalır. Özellikle yoğun saatlerde servis yükünü hafifletmek ve müşteri memnuniyetini artırmak için vazgeçilmezdir.",
+
+   "highlight_2_subtitle": "Kolay Adisyon Yönetimi",
+   "highlight_2_title": "Adisyonlarını ve ödemelerini takip et",
+   "highlight_2_description": "Her masanın hesabı canlı olarak takip edilir. Müşteriler veya garsonlar tarafından eklenen ürünler anında adisyona yansır. Kasiyerler, siparişi kapatırken nakit, kredi kartı, yemek kartı gibi farklı ödeme yöntemleriyle tahsilat yapabilir. Ayrıca parçalı ödeme, kişi başı hesap bölme, birleştirme veya masalar arası aktarım gibi işlemler de kolayca yapılabilir. Bu sistem, hem işletme içi hataları azaltır hem de ödeme sürecini hızlandırır.",
+
+   "highlight_3_subtitle": "Ayrıntılı İstatistikler",
+   "highlight_3_title": "Detaylı raporlar ile performansını değerlendir",
+   "highlight_3_description": "İşletmenizin satışlarını, ürün performansını ve ödeme yöntemlerini anlık olarak takip edin. Gelişmiş analiz ekranları sayesinde hangi ürünün ne kadar satıldığını, en yoğun saatlerinizi, hangi masa ne kadar harcama yapmış gibi detaylara ulaşabilirsiniz. Bu veriler, işletmenizin büyümesini planlarken doğru kararlar almanıza yardımcı olur. Haftalık, aylık ve yıllık raporları tek tıkla alın.",
+
+   "highlight_4_subtitle": "Canlı Mutfak Ekranı",
+   "highlight_4_title": "Siparişlerini anında mutfağına aktar",
+   "highlight_4_description": "Siparişler anında mutfak ekranına düşer. Hangi ürün ne zaman sipariş edildi, hangi masa hangi yemeği istedi gibi detaylar mutfak personelinin önünde net şekilde görünür. Bu sayede yanlış siparişlerin önüne geçilir, hazırlık süreci hızlanır ve servis akışı daha düzenli hale gelir.",
+
+   "pricing_subtitle": "Fiyatlandırma",
+   "pricing_title": "Ücretsiz başla - Dilediğinde yükselt",
+   "pricing_description": "QR Menünü ücretsiz bir şekilde oluşturabilir, daha fazla gelişmiş özellik için Profesyonel plana istediğin zaman geçebilirsin.",
+   
+   "pricing_free_title": "Temel",
+   "pricing_free_description": "Yeni başlayanlar için, QR menü oluşturma ve yönetme",
+   "pricing_free_price": "Ücretsiz",
+
+   "pricing_pro_title": "Profesyonel",
+   "pricing_pro_description": "Masadan sipariş, adisyon takibi gibi gelişmiş özellikler",
+   "pricing_pro_price_discount": "1000₺",
+   "pricing_pro_price": "750₺",
+   "pricing_pro_month": "ay",
+
+   "pricing_feature_1": "Sınırsız ürün ve kategori ekleme",
+   "pricing_feature_2": "Sınırsız masa ve QR kodu oluşturma",
+   "pricing_feature_3": "Ürün özellikleri ve seçenekleri",
+   "pricing_feature_4": "Menü teması ve renkleri özelleştirme",
+   "pricing_feature_5": "QR kodu ile masalardan sipariş alma",
+   "pricing_feature_6": "Sipariş takibi ve mutfak ekranı",
+   "pricing_feature_7": "Adisyon yönetimi ve ödeme takibi",
+   "pricing_feature_8": "Detaylı raporlama ve istatistikler",
+   "pricing_feature_9": "Sınırsız kullanıcı ve izin yönetimi",
+   "pricing_feature_all": "Ücretsiz planda bulunan tüm özellikler",
+
+   "faq_subtitle": "SSS",
+   "faq_title": "Sıkça Sorulan Sorular",
+
+   "faq_1_q": "Temel plan gerçekten ücretsiz mi?",
+   "faq_1_a": "Evet, Temel plan tamamen ücretsizdir ve menü oluşturma, QR kod üretimi ve temel sipariş takibi gibi temel özellikleri içerir.",
+   "faq_2_q": "QR Menü nedir ve nasıl çalışır?",
+   "faq_2_a": "QR Menü, müşterilerinizin mobil cihazlarıyla QR kodu tarayarak menünüzü anında görüntüleyip sipariş verebileceği temassız bir dijital menü sistemidir.",
+
+   "faq_3_q": "Menü tasarımını ve renklerini özelleştirebilir miyim?",
+   "faq_3_a": "Evet, Profesyonel plan ile menünüzün temasını ve renklerini markanıza uygun şekilde tamamen özelleştirebilirsiniz.",
+
+   "faq_4_q": "Kaç ürün veya masa ekleyebilirim, bir sınır var mı?",
+   "faq_4_a": "Hayır, hem Temel hem de Profesyonel planlarda sınırsız ürün, kategori ve masa ekleyebilirsiniz.",
+
+   "faq_5_q": "QR ile verilen siparişler mutfağa nasıl iletiliyor?",
+   "faq_5_a": "Müşterilerin QR kod ile verdiği siparişler anlık olarak mutfak paneline iletilir ve mutfak personeli tarafından anında görüntülenebilir.",
+
+   "faq_6_q": "Personelime farklı roller atayabilir miyim?",
+   "faq_6_a": "Elbette. Garson, mutfak çalışanı veya yönetici gibi roller tanımlayabilir ve her role özel yetkiler verebilirsiniz.",
+
+   "blog_title": "Blog",
+   "blog_description": "En yeni haberleri ve güncellemelerimizi keşfedin.",
+
+   "menu_legal": "Yasal",
+   "menu_features": "Özellikler",
+   "menu_language": "Dil"
+}
