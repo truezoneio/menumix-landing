@@ -29,7 +29,7 @@
           {{ with site.Menus.main }}
             {{ $features := site.Menus.features }}
             {{ range . }}
-              {{ if or (eq .Name "Özellikler") (eq .Name "Features") }}
+              {{ if or (eq .Name "z") (eq .Name "z") }}
                 <li class="relative">
                   <button onclick="toggleFeatures()" class="
                     flex
@@ -55,7 +55,7 @@
                   <ul id="features-menu" class="hidden lg:absolute lg:left-0 z-10 lg:bg-white lg:dark:bg-neutral-800 lg:border lg:border-neutral-200 lg:dark:border-neutral-700 lg:mt-2 lg:rounded-lg lg:shadow-lg min-w-[220px]">
                     {{ range $features }}
                       <li>
-                        <a href="{{ .URL }}" class="
+                        <a href="#features" class="
                             block
                             px-4 py-2
                             text-md
@@ -99,3 +99,14 @@
     </div>
   </nav>
 </header>
+
+<script>
+  function toggleFeatures() {
+    const el = document.getElementById('features-menu');
+    if (el.classList.contains('hidden')) {
+      el.classList.remove('hidden');
+    } else {
+      el.classList.add('hidden');
+    }
+  }
+</script>
