@@ -47,7 +47,7 @@ Printed menus rarely offer this level of control.
 
 ## Real-Time Availability Reduces Frustration
 
-One of the top complaints in traditional dining is, “Sorry, that item’s sold out.” With a digital menu, items can be marked out of stock instantly. No surprises, no frustration.
+One of the top complaints in traditional dining is, "Sorry, that item’s sold out." With a digital menu, items can be marked out of stock instantly. No surprises, no frustration.
 
 You’re setting clearer expectations — and customers notice.
 

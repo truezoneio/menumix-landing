@@ -4,7 +4,7 @@ date = 2025-01-08T07:07:07+01:00
 layout = "legal/agreement"
 +++
 
-This Personal Data Processing Agreement (hereinafter “Agreement“) is supplemental to the Terms and Conditions (also “Master Agreement”) and applies as set out therein.
+This Personal Data Processing Agreement (hereinafter "Agreement") is supplemental to the Terms and Conditions (also "Master Agreement") and applies as set out therein.
 
 This Agreement sets out the additional terms, requirements, and conditions under which the Service Provider (hereinafter TRUEZONE Inc.) will process Personal Information when providing Services under the Terms and Conditions. This Agreement contains mandatory clauses required under applicable Data Protection Laws for contracts regarding data sharing and data processing activities.
 

@@ -4,7 +4,7 @@ date = 2025-01-08T07:07:07+01:00
 layout = "legal/agreement"
 +++
 
-This Privacy Policy (“Policy”) describes how TRUEZONE Inc. ("TRUEZONE," "we," "us," or "our") collects, uses, discloses, and protects personal information in connection with the platform. This Policy is applicable to Customers who collect personal information from their Applicants through TRUEZONE’s services.
+This Privacy Policy ("Policy") describes how TRUEZONE Inc. ("TRUEZONE," "we," "us," or "our") collects, uses, discloses, and protects personal information in connection with the platform. This Policy is applicable to Customers who collect personal information from their Applicants through TRUEZONE’s services.
  
 1. Scope and Applicability
 This Policy applies to personal information collected by our Customers from their Applicants, which includes individuals whose information is processed in connection with the use of TRUEZONE's platform. This Policy is applicable to all Customers, regardless of their geographical location, including but not limited to those in the EU, California, and other states in the United States. This ensures a comprehensive understanding of data processing practices for all users.

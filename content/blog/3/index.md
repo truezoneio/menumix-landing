@@ -46,8 +46,8 @@ Basılı menüler bu esnekliği sağlayamaz.
 
 ## Gerçek Zamanlı Güncellemelerle Hayal Kırıklığını Önleyin
 
-Basılı menülerde karşılaşılan en yaygın sorun: “O ürün şu anda yok.”  
-Dijital menülerde bir ürün bittiğinde anında kaldırılır veya “tükendi” olarak işaretlenir.
+Basılı menülerde karşılaşılan en yaygın sorun: "O ürün şu anda yok."  
+Dijital menülerde bir ürün bittiğinde anında kaldırılır veya "tükendi" olarak işaretlenir.
 
 Bu sayede müşteri beklentisi daha doğru yönetilir.
 

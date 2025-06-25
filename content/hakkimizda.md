@@ -10,10 +10,10 @@ By continuing to use our Services after any amendments to these Terms and Condit
  
 Terms of Service Agreement
 Overview of Agreement
-This Terms of Service Agreement (the “Agreement”), along with any attached schedules, annexes, or appendices, outlines the governing terms for the relationship between the Service Provider and the Customer (referred to collectively as the “Parties” or individually as a “Party”).
+This Terms of Service Agreement (the "Agreement"), along with any attached schedules, annexes, or appendices, outlines the governing terms for the relationship between the Service Provider and the Customer (referred to collectively as the "Parties" or individually as a "Party").
  
 Acceptance of Terms
-By either (i) registering on the Dashboard and selecting a Pricing Plan or clicking “Sign Up” on our Website, or (ii) accessing or utilizing the System and/or Services (except where the Parties already have an existing commercial agreement covering similar subject matter), the Customer consents to abide by these Terms of Service. Should the Customer disagree with any part of these Terms, they must refrain from registering on the Dashboard or using the System and/or Services.
+By either (i) registering on the Dashboard and selecting a Pricing Plan or clicking "Sign Up" on our Website, or (ii) accessing or utilizing the System and/or Services (except where the Parties already have an existing commercial agreement covering similar subject matter), the Customer consents to abide by these Terms of Service. Should the Customer disagree with any part of these Terms, they must refrain from registering on the Dashboard or using the System and/or Services.
  
 Definition of Parties
 Customer: Refers to any individual or organization that uses or accesses the System and/or Services under the terms outlined in these Terms and Conditions.
@@ -38,7 +38,7 @@ Customer Platform: The information technology system owned and/or operated by th
  
 DPA: Refers to the Data Processing Agreement contained in https://truecheck.io/dpa
  
-Fees: Charges payable by the Customer to the Service Provider under these Terms and Conditions, as specified in Annex 2 (“Payment Terms”), the applicable Pricing Plan, or as otherwise agreed by the Parties.
+Fees: Charges payable by the Customer to the Service Provider under these Terms and Conditions, as specified in Annex 2 ("Payment Terms"), the applicable Pricing Plan, or as otherwise agreed by the Parties.
  
 Intellectual Property Rights: Includes all patents, invention rights, utility models, copyrights, trademarks, service marks, trade names, business names, domain names, trade dress rights, goodwill rights, unfair competition rights, design rights, software rights, database rights, topography rights, moral rights, Confidential Information rights, and other intellectual property rights, whether registered or unregistered, and any applications, renewals, or extensions of such rights globally.
  
@@ -58,7 +58,7 @@ SLA: Refers to the Service Level Agreement contained in Annex 1 to these Terms a
  
 Specification: The list and description of Services corresponding to the Customer’s Pricing Plan at the time. The Service Provider may modify the Specification, with reasonable prior notice if the changes significantly impair the Services' scope or quality.
  
-System or Platform: A set of computer programs and databases operated by the Service Provider to render Services described in the Specification, including API and SDK. It includes an interactive software tool (the “Dashboard”) facilitating communication between the Service Provider and the Customer and managing requests from the Customer or Applicants.
+System or Platform: A set of computer programs and databases operated by the Service Provider to render Services described in the Specification, including API and SDK. It includes an interactive software tool (the "Dashboard") facilitating communication between the Service Provider and the Customer and managing requests from the Customer or Applicants.
  
 Trial Period: A limited time during which the Customer may use a certain number of Checks free of charge for testing the Services and System functionality.
  
@@ -67,7 +67,7 @@ Website: Refers to https://truecheck.io and its subdomains.
  
 2. TERMS
 2.1. Commencement and Initial Term
-These Terms and Conditions will become effective between the Parties on the Commencement Date and will continue to be in force for a period of 1 month from the Billing Start Date (collectively referred to as the “Initial Term”). After the Initial Term, these Terms and Conditions will automatically renew for additional 1-month periods (each a “Renewal Term”). The Initial Term and any subsequent Renewal Terms together will be referred to as the “Term.”
+These Terms and Conditions will become effective between the Parties on the Commencement Date and will continue to be in force for a period of 1 month from the Billing Start Date (collectively referred to as the "Initial Term"). After the Initial Term, these Terms and Conditions will automatically renew for additional 1-month periods (each a "Renewal Term"). The Initial Term and any subsequent Renewal Terms together will be referred to as the "Term."
  
 2.2 Pre-Payment and Pricing Plan Adjustments
 Notwithstanding the provisions in clause 2.1, if the Customer either (i) fully uses up any specified Pre-Payment (if applicable) or (ii) switches to a Pricing Plan that includes a Pre-Payment among the Fees, the Initial Term or the current Renewal Term will automatically end. The new Renewal Term will commence the following day.
@@ -256,14 +256,14 @@ The Customer agrees to be responsible for all attorney fees, court costs, and an
  
 Annex 1 – Service Level Agreement
 1.1. Introduction  
-This Service Level Agreement (“SLA”) sets forth the terms and conditions governing the Customer's use of the Service Provider’s API and/or SDK, referred to as the “TRUEZONE Service.”
+This Service Level Agreement ("SLA") sets forth the terms and conditions governing the Customer's use of the Service Provider’s API and/or SDK, referred to as the "TRUEZONE Service."
  
  
 1.2. Applicability
 This SLA is subject to the Terms and Conditions of the Agreement unless otherwise stated herein. Capitalized terms not defined in this SLA shall have the meanings ascribed to them in the Terms and Conditions.
  
 1.3. Service Availability  
-The term “Service Availability” shall mean that the TRUEZONE Service is accessible and operational for the Customer’s use for the Business Purpose, as defined in the Terms and Conditions.
+The term "Service Availability" shall mean that the TRUEZONE Service is accessible and operational for the Customer’s use for the Business Purpose, as defined in the Terms and Conditions.
  
 1.4. Exclusions from Service Availability
 The calculation of Service Availability shall exclude any periods of unavailability resulting from the following:  
@@ -279,7 +279,7 @@ By continuing to use the TRUEZONE Services, the Customer acknowledges and agrees
  
 Annex 2 – PAYMENT TERMS
 2.1. General
-In accordance with the selected Pricing Plan and applicable Specification, the Customer is required to pay the Service Provider for Subscription Fees (“Fees”) as per the invoices issued by the Service Provider. Multiple invoices may be generated, either concurrently or at different intervals, for the same reporting period, depending on the exact Fees due for that period. It is explicitly agreed that all Fees are non-refundable.The Service Provider reserves the right to suspend or restrict the Customer’s access to the Services and/or the System until all outstanding payments under these Terms and Conditions are fully settled.
+In accordance with the selected Pricing Plan and applicable Specification, the Customer is required to pay the Service Provider for Subscription Fees ("Fees") as per the invoices issued by the Service Provider. Multiple invoices may be generated, either concurrently or at different intervals, for the same reporting period, depending on the exact Fees due for that period. It is explicitly agreed that all Fees are non-refundable.The Service Provider reserves the right to suspend or restrict the Customer’s access to the Services and/or the System until all outstanding payments under these Terms and Conditions are fully settled.
  
 2.2. Subscription Fees
 Subscription Fees are charged for the provision of designated Services on a recurring basis (once per reporting period) and must be paid unconditionally. To avoid any doubt, Subscription Fees remain payable regardless of whether the Customer utilizes the associated Services. The Service Provider may issue a separate invoice for the Subscription Fees due in each reporting period.

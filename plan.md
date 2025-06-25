@@ -9,7 +9,7 @@
 
 ## 2. Social Proof
 - Logos of restaurants/cafes using Menumix
-- Trust statement: “Trusted by modern restaurants in 20+ cities”
+- Trust statement: "Trusted by modern restaurants in 20+ cities"
 
 ## 3. Features Overview
 - **Section Title**: "Everything You Need to Run Your Restaurant"
@@ -85,7 +85,7 @@
   - Restaurant digitalization tips
 
 ## 13. Final Call to Action
-- Restate value: “Run a smarter, faster restaurant with Menumix.”
+- Restate value: "Run a smarter, faster restaurant with Menumix."
 - CTA: "Create Free QR Menu"
 
 ## 14. Footer

@@ -24,10 +24,14 @@
    "highlight_4_title": "Siparişleri anında mutfağa aktar",
    "highlight_4_description": "QR Menü üzerinden verilen siparişler doğrudan mutfak ekranına iletilir. Hangi ürünün, hangi masa tarafından ve ne zaman sipariş edildiği mutfak personeli tarafından görülür. Adisyonlar önceliklendirilir, hazırlık süreci hızlanır ve servis akışı mutfak yönetim ekranı üzerinden takip edilir.",
 
-   "pricing_subtitle": "Fiyatlandırma",
-   "pricing_title": "Hemen Ücretsiz Dijital QR Menü oluştur",
-   "pricing_description": "QR Menünü ücretsiz oluşturabilir, gelişmiş özellikler için profesyonel plana istediğin zaman geçebilirsin.",
-   
+   "highlight_5_subtitle": "Çoklu Dil Desteği",
+   "highlight_5_title": "50+ Dilde otomatik menü çevirisi",
+   "highlight_5_description": "MenuMix, dijital QR menünüzü 50+ dile otomatik olarak çevirir. Misafirleriniz, QR kodu okutarak menüyü kendi dilinde görüntüleyebilir. Çoklu dil çevirisi ile yabancı misafirlerinizi memnun ederken restoranınızın uluslararası müşteri kitlesine hitap etmesini sağlarsınız.",
+
+"pricing_subtitle": "Fiyatlandırma",
+"pricing_title": "Ücretsiz Başla - İstediğinde Yükselt",
+"pricing_description": "QR menünü ücretsiz oluşturabilir, gelişmiş özellikler için dilediğin zaman profesyonel pakete geçebilirsin.",
+
    "pricing_free_title": "Temel",
    "pricing_free_description": "Ücretsiz QR menü oluşturma ve yönetme.",
    "pricing_free_price": "Ücretsiz",
@@ -35,7 +39,7 @@
    "pricing_pro_title": "Profesyonel",
    "pricing_pro_description": "Masadan sipariş, adisyon yönetimi, çoklu dil desteği ve istatistikler",
    "pricing_pro_price_discount": "1200₺",
-   "pricing_pro_price": "990₺",
+   "pricing_pro_price": "900₺",
    "pricing_pro_month": "ay",
 
    "pricing_feature_1": "Sınırsız ürün ve kategori ekleme",
@@ -62,7 +66,7 @@
    "faq_2_a": "Ücretsiz dijital menü paketi ile sınırsız ürün kategorisi, ürün ve masa oluşturabilir, işletmenizin lokasyon bilgilerini, sosyal medya hesaplarını, çalışma saatlerini ve wi-fi bilgilerini menünüze ekleyebilirsiniz. Restorana özel URL kaydı yapabilir,  QR Menü temasını ve renklerini markanıza uygun şekilde düzenleyebilirsiniz. Garson çağır özelliği ile müşterileriniz kare kod menü üzerinden garson çağırabilirler.",
 
    "faq_3_q": "Profesyonel QR Menü paketinin farkı nedir?",
-   "faq_3_a": "Profesyonel QR kod Menü planı ile masadan sipariş alır, adisyonlarınızı tek bir panelden takip eder, canlı mutfak yönetim paneli ile siparişleri yönetirsiniz. Detaylı satış raporları  ile işletmenizin menü, bölge ve masa performanlarını ölçer, gün sonu raporları alırsınız. Çoklu dil seçeneği ile QR menünüzü seçtiğiniz 5 farklı dilde otomatik çevirir, çalışanlarınıza kullanıcı rolleri belirleyebilirsiniz.",
+   "faq_3_a": "Profesyonel QR kod Menü planı ile masadan sipariş alır, adisyonlarınızı tek bir panelden takip eder, canlı mutfak yönetim paneli ile siparişleri yönetirsiniz. Detaylı satış raporları  ile işletmenizin menü, bölge ve masa performanlarını ölçer, gün sonu raporları alırsınız. Çoklu dil seçeneği ile QR menünüzü seçtiğiniz 5 farklı dilde otomatik çevirir, çalışanlarınıza kullanıcı rolleri belirleyebilirsiniz.", 
 
    "faq_4_q": "Menü tasarımını ve renklerini özelleştirebilir miyim?",
    "faq_4_a": "Evet, hem ücretsiz hem de pfe rofesyonel QR Menü planlarında  menünüzün temasını ve renklerini markanıza uygun şekilde tamamen özelleştirebilirsiniz.",
@@ -72,9 +76,6 @@
 
    "faq_6_q": "QR Menüm işletmeme ait seçtiğim bir URL’de mi olacak?",
    "faq_6_a": "Evet. Tüm planlarda kayıt işlemi sırasında işletmenize ait URL’yi kendiniz seçersiniz. Bir URL daha önce farklı bir işletme tarafında kullanıldıysa aynı URL’yi seçemezsiniz. QR Menünüz bu URL üzerinden müşterilerinize gösterilir.",
-
-   "faq_8_q": "Personelime farklı kullanıcı rolleri atayabilir miyim?",
-   "faq_8_a": "Profesyonel planda çalışanlarınıza garson, mutfak çalışanı veya yönetici gibi roller tanımlayabilir ve her role özel yetkiler verebilirsiniz.",
 
    "blog_title": "Blog",
    "blog_description": "En yeni haberleri ve güncellemelerimizi keşfedin.",
