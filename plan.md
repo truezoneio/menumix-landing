@@ -53,7 +53,7 @@
 - **Free Plan**:  
   - Unlimited QR menus, products, and categories
 
-- **Pro Plan** – $20/month:  
+- **Pro Plan** – $25/month:  
   - Table ordering  
   - Bill management & payments  
   - Kitchen tracking  
