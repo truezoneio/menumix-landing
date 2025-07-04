@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html class="bg-white dark:bg-neutral-900" lang="{{ or site.Language.LanguageCode }}">
     <head>
-        {{ partial "head.html" . }}
+        {{ if eq .Section "blog" }}
+            {{ partial "head-blog.html" . }}
+        {{ else }}
+            {{ partial "head.html" . }}
+        {{ end }}
         {{ partialCached "css.html" . }}
     </head>
     <style>

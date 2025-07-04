@@ -13,7 +13,7 @@ disableLanguages = []
     languageCode = 'tr'
     languageDirection = 'ltr'
     languageName = 'Turkish'
-    title = 'Menumix'
+    title = "Ücretsiz QR Menü ve Bulut Kasa Sistemi"
     weight = 1
 
     [[languages.tr.menu.main]]
@@ -80,7 +80,7 @@ disableLanguages = []
     languageCode = 'en'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'Menumix'
+    title = "Free QR Menu and Cloud POS System"
     weight = 2
 
     [[languages.en.menu.main]]
@@ -146,7 +146,7 @@ disableLanguages = []
     languageCode = 'es'
     languageDirection = 'ltr'
     languageName = 'Español'
-    title = 'Menumix'
+    title = "Sistema de Menú QR y Caja en la Nube Gratis"
     weight = 3
 
     [[languages.es.menu.main]]
