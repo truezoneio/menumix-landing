@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="bg-white dark:bg-neutral-900" lang="{{ or site.Language.LanguageCode }}">
     <head>
+        <meta property="og:site_name" content="Menumix">
         {{ if eq .Section "blog" }}
             {{ partial "head-blog.html" . }}
         {{ else }}
