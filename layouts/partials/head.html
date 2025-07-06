@@ -17,7 +17,7 @@
 <meta name="apple-mobile-web-app-title" content="Menumix" />
 <link rel="manifest" href="/icons/site.webmanifest" />
 
-<meta name="keyword" content="menumix, menu mix, qr menu, dijital menu, restoran yönetimi, qr dijital menu, akilli menu"/>
+<meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ else }}menumix, qr menu{{ end }}" />
 {{- if .IsHome -}}
     <meta property="og:title" content="Menumix"/>
     <meta property="og:description" content="{{ site.Params.Description }}"/>
