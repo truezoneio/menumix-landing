@@ -66,16 +66,16 @@ disableLanguages = []
 
     [[languages.tr.menu.legal]]
       name = "Kullanım Koşulları"
-      url = "/tr/terms"
+      url = "/tr/legal/terms/"
       weight = 1
 
     [[languages.tr.menu.legal]]
       name = "Gizlilik Politikası"
-      url = "/tr/privacy"
+      url = "/tr/legal/privacy/"
       weight = 2
     [[languages.tr.menu.legal]]
       name = "Veri İşleme Sözleşmesi"
-      url = "/tr/dpa"
+      url = "/tr/legal/dpa/"
       weight = 3
 
   [languages.en]
@@ -136,16 +136,16 @@ disableLanguages = []
 
     [[languages.en.menu.legal]]
       name = "Terms of Service"
-      url = "/en/terms"
+      url = "/en/legal/terms/"
       weight = 1
 
     [[languages.en.menu.legal]]
       name = "Privacy Policy"
-      url = "/en/privacy"
+      url = "/en/legal/privacy/"
       weight = 2
     [[languages.en.menu.legal]]
       name = "Data Processing Agreement"
-      url = "/en/dpa"
+      url = "/en/legal/dpa/"
       weight = 3
   [languages.es]
     disabled = false
@@ -205,17 +205,17 @@ disableLanguages = []
 
     [[languages.es.menu.legal]]
       name = "Términos de Servicio"
-      url = "/es/terms"
+      url = "/es/legal/terms/"
       weight = 1
 
     [[languages.es.menu.legal]]
       name = "Política de Privacidad"
-      url = "/es/privacy"
+      url = "/es/legal/privacy/"
       weight = 2
 
     [[languages.es.menu.legal]]
       name = "Acuerdo de Procesamiento de Datos"
-      url = "/es/dpa"
+      url = "/es/legal/dpa/"
       weight = 3
 
 [build]

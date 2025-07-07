@@ -36,7 +36,7 @@ Confidential Information: Comprises information disclosed by the Service Provide
  
 Customer Platform: The information technology system owned and/or operated by the Customer that receives data from the Service Provider and/or the System under these Terms and Conditions.
  
-DPA: Refers to the Data Processing Agreement contained in https://truecheck.io/dpa
+DPA: Refers to the Data Processing Agreement contained in https://truecheck.io/legal/dpa/
  
 Fees: Charges payable by the Customer to the Service Provider under these Terms and Conditions, as specified in Annex 2 ("Payment Terms"), the applicable Pricing Plan, or as otherwise agreed by the Parties.
  
