@@ -23,7 +23,7 @@
           {{ with site.Menus.main }}
             {{ $features := site.Menus.features }}
             {{ range . }}
-              {{ if or (eq .Name "z") (eq .Name "z") }}
+              {{ if or (eq .Params.id "features") (eq .Params.id "features") }}
                 <li class="relative">
                   <button onclick="toggleFeatures()" class="
                     flex
@@ -44,7 +44,7 @@
                   <ul id="features-menu" class="hidden lg:absolute lg:left-0 z-10 lg:bg-white lg:border lg:border-neutral-200 lg:mt-2 lg:rounded-lg lg:shadow-lg min-w-[220px]">
                     {{ range $features }}
                       <li>
-                        <a href="#features" class="
+                        <a href="{{ .URL }}" class="
                             block
                             px-4 py-2
                             text-md
@@ -86,12 +86,19 @@
 </header>
 
 <script>
+  const toggleButton = document.querySelector('[onclick="toggleFeatures()"]');
+  const dropdownMenu = document.getElementById('features-menu');
+
   function toggleFeatures() {
-    const el = document.getElementById('features-menu');
-    if (el.classList.contains('hidden')) {
-      el.classList.remove('hidden');
-    } else {
-      el.classList.add('hidden');
-    }
+    dropdownMenu.classList.toggle('hidden');
   }
+
+  // Close on outside click
+  document.addEventListener('click', function(event) {
+    const isClickInside = dropdownMenu.contains(event.target) || toggleButton.contains(event.target);
+
+    if (!isClickInside && !dropdownMenu.classList.contains('hidden')) {
+      dropdownMenu.classList.add('hidden');
+    }
+  });
 </script>

@@ -1,17 +1,21 @@
 <section class="bg-white">
-    <div class="flex flex-col max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
+    <div class="flex flex-col max-w-screen-xl px-4 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
         <div class="mx-auto text-center py-8">
             <h1 class="max-w-3xl mb-1 text-5xl font-bold tracking-tight leading-none md:text-5xl lg:text-5xl xl:text-6xl">{{ i18n "hero_title" }}</h1>
             <h1 class="max-w-3xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-4xl xl:text-4xl text-red-600">{{ i18n "hero_subtitle" }}</h1>
             <p class="max-w-3xl my-6 font-light text-neutral-500 lg:mb-8 text-lg lg:text-xl">{{ i18n "hero_description" }}</p>
-            <a href="https://panel.menumix.app" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-500 focus:ring-4 focus:ring-red-300">
+            <a href="https://panel.menumix.app/register" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-500 focus:ring-4 focus:ring-red-300">
                 {{ i18n "hero_cta_button" }}
             </a>
             <a href="https://qr.menumix.app/m/leo-cafe?t=7AklBvyCZ9tIvI22x8e9" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-neutral-900 border border-neutral-300 rounded-lg hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-100">
                 {{ i18n "hero_sample_button" }}
             </a> 
         </div>
-        <div class="mt-8 max-w-6xl mx-auto">
+    </div>
+</section>
+<section class="bg-neutral-100 mt-24 lg:mt-12 mb-24">
+    <div class="flex flex-col max-w-screen-xl mx-auto lg:gap-8 xl:gap-0">
+        <div class="max-w-4xl mx-auto" style="margin-top: -100px; margin-bottom: -100px;">
             <img src="/images/hero_{{ .Site.Language.Lang }}.webp" alt="menumix_qr">
         </div>                
     </div>

@@ -1,5 +1,15 @@
 {{ define "main" }}
 <style>
+    article h1 {
+        font-weight: 600;
+        font-size:  2rem;
+        margin-bottom: 1em;
+    }
+    article h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        font-size:  1.5rem;
+        margin-bottom: 1em;
+    }
     article h2, h3, h4, h5, h6 {
         font-weight: 600;
         font-size:  1.5rem;
@@ -22,26 +32,27 @@
         overflow-wrap: break-word;
     }
 </style>
-<main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white antialiased">
+<main class="p-4 pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white antialiased">
+  <div class="px-4 mx-auto max-w-screen-xl">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-8 mx-auto max-w-4xl">
+      <div>
+        <span class="inline-flex items-center rounded-md bg-red-100 px-2 py-1 mb-2 text-xl font-medium text-red-700">{{ i18n "menu_features" }}</span>
+        <h1 class="text-black max-w-4xl mb-1 text-4xl font-bold tracking-tight leading-none md:text-4xl lg:text-5xl xl:text-5xl">{{ .Title }}</h1>
+        <p class="max-w-3xl my-6 text-neutral-700 lg:mb-8 text-lg lg:text-xl">{{ .Description }}</p>
+        <a href="https://panel.menumix.app/register" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-500 focus:ring-4 focus:ring-red-300">
+            {{ i18n "hero_cta_button" }}
+        </a>
+      </div>
+      <div>
+        <img class="max-w-full md:max-w-sm lg:max-w-md" src="/images/{{ .Params.image }}_{{ .Site.Language.Lang }}.webp" alt="menumix_qr">
+      </div>
+    </div>
+  </div>
   <div class="flex justify-between px-4 mx-auto max-w-screen-xl">
     <article class="flex flex-col mx-auto w-full max-w-4xl format format-sm sm:format-base lg:format-lg format-blue">
-      <header class="mb-4 lg:mb-6">
-        <h1 class="mb-4 text-3xl font-extrabold leading-tight text-neutral-900 lg:mb-6 lg:text-4xl">{{ .Title }}</h1>
-      </header>
-
-      {{ range $index, $section := .Params.sections }}
-        <div class="flex flex-row g-4 mb-12">
-          <div class="w-full">
-            <h2 class="mb-4 text-xl font-extrabold leading-tight text-neutral-900 lg:mb-6 lg:text-2xl">{{ $section.title }}</h2>
-            <p>{{ $section.content }}</p>
-          </div>
-          <div class="w-full">
-            {{ with $.Resources.GetMatch $section.image }}
-              <img class="w-full" src="{{ .Permalink }}" alt="{{ $.Title }}" style="height:300px; object-fit:cover; object-position:center;">
-            {{ end }}
-          </div>
-        </div>
-      {{ end }}
+      <div class="py-16">
+        {{ .Content }}
+      </div>
     </article>
   </div>
 </main>

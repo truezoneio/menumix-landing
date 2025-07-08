@@ -28,6 +28,8 @@ disableLanguages = []
       name = "Özellikler"
       url = "/tr/#features"
       weight = 2
+      [languages.tr.menu.main.params]
+        id="features"
 
     [[languages.tr.menu.main]]
       name = "Fiyatlandırma"
@@ -56,13 +58,18 @@ disableLanguages = []
 
     [[languages.tr.menu.features]]
       name = "Hesap Yönetimi"
-      url = "/tr/masa-yonetimi"
+      url = "/tr/hesap-yonetimi"
       weight = 3
 
     [[languages.tr.menu.features]]
       name = "Raporlama ve Analitik"
       url = "/tr/raporlama"
       weight = 4
+    
+    [[languages.tr.menu.features]]
+      name = "Otomatik Çeviriler"
+      url = "/tr/otomatik-ceviriler"
+      weight = 5
 
     [[languages.tr.menu.legal]]
       name = "Kullanım Koşulları"
@@ -98,6 +105,8 @@ disableLanguages = []
       name = "Features"
       url = "/en/#features"
       weight = 2
+      [languages.en.menu.main.params]
+        id="features"
 
     [[languages.en.menu.main]]
       name = "Pricing"
@@ -167,6 +176,8 @@ disableLanguages = []
       name = "Características"
       url = "/es/#features"
       weight = 2
+      [languages.es.menu.main.params]
+        id="features"
 
     [[languages.es.menu.main]]
       name = "Precios"
