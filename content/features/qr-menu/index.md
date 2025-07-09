@@ -19,7 +19,7 @@ layout = "features"
   image = "orders"
 +++
 
-## QR Menü ile Modern Restoran Deneyimi
+# QR Menü ile Modern Restoran Deneyimi
 
 Geleneksel menülerin yerini artık dijital çözümler alıyor. QR kodla erişilen dijital menüler sadece hijyen açısından değil, hız, kolaylık ve müşteri memnuniyeti açısından da büyük avantajlar sunuyor. **Menumix**, restoranınızı bu dönüşüme zahmetsizce adapte etmenizi sağlıyor.
 

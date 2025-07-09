@@ -130,18 +130,23 @@ disableLanguages = []
 
     [[languages.en.menu.features]]
       name = "Order Management"
-      url = "/en/orders"
+      url = "/en/order-management"
       weight = 2
 
     [[languages.en.menu.features]]
       name = "Table Bills"
-      url = "/en/tables"
+      url = "/en/bill-management"
       weight = 3
 
     [[languages.en.menu.features]]
       name = "Reporting and Analytics"
-      url = "/en/analytics"
+      url = "/en/reporting"
       weight = 4
+
+    [[languages.en.menu.features]]
+      name = "Automatic Menu Translations"
+      url = "/en/automatic-translations"
+      weight = 5
 
     [[languages.en.menu.legal]]
       name = "Terms of Service"
@@ -195,24 +200,29 @@ disableLanguages = []
       weight = 5
 
     [[languages.es.menu.features]]
-      name = "Carta QR"
-      url = "/es/qr-menu"
+      name = "Carta Digital QR"
+      url = "/es/carta-digital"
       weight = 1
 
     [[languages.es.menu.features]]
       name = "Gestión de Pedidos"
-      url = "/es/ordenes"
+      url = "/es/gestion-de-pedidos"
       weight = 2
 
     [[languages.es.menu.features]]
       name = "Cuentas por Mesa"
-      url = "/es/mesas"
+      url = "/es/gestion-de-cuenta"
       weight = 3
 
     [[languages.es.menu.features]]
       name = "Reportes y Analíticas"
-      url = "/es/analiticas"
+      url = "/es/informes"
       weight = 4
+
+    [[languages.es.menu.features]]
+      name = "Traducciones Automáticas
+      url = "/es/traducciones-automaticas"
+      weight = 5
 
     [[languages.es.menu.legal]]
       name = "Términos de Servicio"
