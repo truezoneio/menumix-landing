@@ -220,7 +220,7 @@ disableLanguages = []
       weight = 4
 
     [[languages.es.menu.features]]
-      name = "Traducciones Automáticas
+      name = "Traducciones Automáticas"
       url = "/es/traducciones-automaticas"
       weight = 5
 
