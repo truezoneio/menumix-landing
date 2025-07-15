@@ -34,7 +34,7 @@ disableLanguages = []
     [[languages.tr.menu.main]]
       name = "Fiyatlandırma"
       url = "/tr/fiyatlandirma"
-      weight = 3
+      weight = 99
 
     [[languages.tr.menu.main]]
       name = "SSS"
@@ -111,7 +111,7 @@ disableLanguages = []
     [[languages.en.menu.main]]
       name = "Pricing"
       url = "/en/pricing"
-      weight = 3
+      weight = 99
 
     [[languages.en.menu.main]]
       name = "FAQ"
@@ -187,7 +187,7 @@ disableLanguages = []
     [[languages.es.menu.main]]
       name = "Precios"
       url = "/es/precios"
-      weight = 3
+      weight = 99
 
     [[languages.es.menu.main]]
       name = "FAQ"
