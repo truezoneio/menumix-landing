@@ -1,0 +1,92 @@
+<section class="bg-neutral-900" id="downloads">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+      <h1 class="mb-4 text-1xl tracking-tight font-bold text-red-500">{{ i18n "downloads_subtitle" }}</h1>
+      <h2 class="mb-4 text-5xl tracking-tight font-bold text-white">{{ i18n "downloads_title" }}</h2>
+      <p class="mb-5 font-light text-neutral-500 sm:text-xl">{{ i18n "downloads_description" }}</p>
+    </div>
+    
+    <div class="max-w-4xl mx-auto">
+      <!-- Printer Server Downloads -->
+      <div class="bg-neutral-100 rounded-lg p-6 xl:p-8">
+        <h3 class="mb-6 text-2xl font-semibold text-neutral-900 text-center">{{ i18n "downloads_printer_server_title" }}</h3>
+        <p class="mb-8 font-light text-neutral-500 sm:text-lg text-center">{{ i18n "downloads_printer_server_description" }}</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- macOS Downloads -->
+          <div class="bg-white rounded-lg p-6 shadow-sm">
+            <div class="flex items-center mb-4">
+              <svg class="w-8 h-8 text-neutral-700 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+              </svg>
+              <h4 class="text-xl font-semibold text-neutral-900">macOS</h4>
+            </div>
+            <div class="space-y-3">
+              <a href="https://github.com/truezoneio/menumix-landing/releases/download/printer-server/Menumix-Printer-Server-v0.9.0-darwin-arm64.zip" 
+                 class="flex items-center justify-between p-3 border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors"
+                 download>
+                <div>
+                  <div class="font-medium text-neutral-900">{{ i18n "downloads_macos_arm" }}</div>
+                  <div class="text-sm text-neutral-500">Apple Silicon (M1/M2/M3)</div>
+                </div>
+                <svg class="w-5 h-5 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+              </a>
+              <a href="https://github.com/truezoneio/menumix-landing/releases/download/printer-server/Menumix-Printer-Server-v0.9.0-darwin-x64.zip" 
+                 class="flex items-center justify-between p-3 border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors"
+                 download>
+                <div>
+                  <div class="font-medium text-neutral-900">{{ i18n "downloads_macos_intel" }}</div>
+                  <div class="text-sm text-neutral-500">Intel Processor</div>
+                </div>
+                <svg class="w-5 h-5 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Windows Downloads -->
+          <div class="bg-white rounded-lg p-6 shadow-sm">
+            <div class="flex items-center mb-4">
+              <svg class="w-8 h-8 text-neutral-700 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M0,0V11.25L10.5,12.75V1.5ZM0,12.75V24L10.5,22.5V12.75ZM12,1.25L24,0V11.25L12,12.75ZM12,12.75L24,11.25V22.5L12,24Z"/>
+              </svg>
+              <h4 class="text-xl font-semibold text-neutral-900">Windows</h4>
+            </div>
+            <div class="space-y-3">
+              <a href="https://github.com/truezoneio/menumix-landing/releases/download/printer-server/Menumix-Printer-Server-v0.9.0-win32-x64.zip" 
+                 class="flex items-center justify-between p-3 border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors"
+                 download>
+                <div>
+                  <div class="font-medium text-neutral-900">{{ i18n "downloads_windows_64" }}</div>
+                  <div class="text-sm text-neutral-500">64-bit</div>
+                </div>
+                <svg class="w-5 h-5 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+              </a>
+              <a href="https://github.com/truezoneio/menumix-landing/releases/download/printer-server/Menumix-Printer-Server-v0.9.0-win32-ia32.zip" 
+                 class="flex items-center justify-between p-3 border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors"
+                 download>
+                <div>
+                  <div class="font-medium text-neutral-900">{{ i18n "downloads_windows_32" }}</div>
+                  <div class="text-sm text-neutral-500">32-bit</div>
+                </div>
+                <svg class="w-5 h-5 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 p-4 bg-blue-50 rounded-lg">
+          <h5 class="font-semibold text-blue-900 mb-2">{{ i18n "downloads_installation_title" }}</h5>
+          <p class="text-blue-800 text-sm">{{ i18n "downloads_installation_description" }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

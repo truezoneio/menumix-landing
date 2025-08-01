@@ -82,7 +82,19 @@
 "blog_title": "Blog",
 "blog_description": "Discover our latest news and updates.",
 
-"menu_legal": "Legal",
-"menu_features": "Features",
-"menu_language": "Language"
+   "menu_legal": "Legal",
+   "menu_features": "Features",
+   "menu_language": "Language",
+
+   "downloads_subtitle": "Software Downloads",
+   "downloads_title": "Menumix Printer Server",
+   "downloads_description": "Download and install the Menumix Printer Server to automatically print orders from tables directly to your kitchen printer.",
+   "downloads_printer_server_title": "Menumix Printer Server v0.9.0",
+   "downloads_printer_server_description": "This application automatically sends your QR menu orders to your kitchen printer. Choose the version compatible with your operating system.",
+   "downloads_macos_arm": "macOS (Apple Silicon)",
+   "downloads_macos_intel": "macOS (Intel)",
+   "downloads_windows_64": "Windows (64-bit)",
+   "downloads_windows_32": "Windows (32-bit)",
+   "downloads_installation_title": "Installation Info",
+   "downloads_installation_description": "Open the downloaded file and complete the application installation. Please refer to the help documentation for printer settings."
 }
