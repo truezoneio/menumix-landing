@@ -24,6 +24,21 @@
         } else if (storedLang === 'tr') {
           window.location.replace('/tr/')
           return
+        } else if (storedLang === 'es') {
+          window.location.replace('/es/')
+          return
+        } else if (storedLang === 'fr') {
+          window.location.replace('/fr/')
+          return
+        } else if (storedLang === 'it') {
+          window.location.replace('/it/')
+          return
+        } else if (storedLang === 'de') {
+          window.location.replace('/de/')
+          return
+        } else if (storedLang === 'pt') {
+          window.location.replace('/pt/')
+          return
         }
 
         // If not stored, detect browser language
@@ -55,6 +70,21 @@
         if (preferLang.indexOf('en') !== -1) {
           localStorage.setItem('preferredLanguage', 'en')
           window.location.replace('/en/')
+        } else if (preferLang.indexOf('es') !== -1) {
+          localStorage.setItem('preferredLanguage', 'es')
+          window.location.replace('/es/')
+        } else if (preferLang.indexOf('fr') !== -1) {
+          localStorage.setItem('preferredLanguage', 'fr')
+          window.location.replace('/fr/')
+        } else if (preferLang.indexOf('it') !== -1) {
+          localStorage.setItem('preferredLanguage', 'it')
+          window.location.replace('/it/')
+        } else if (preferLang.indexOf('de') !== -1) {
+          localStorage.setItem('preferredLanguage', 'de')
+          window.location.replace('/de/')
+        } else if (preferLang.indexOf('pt') !== -1) {
+          localStorage.setItem('preferredLanguage', 'pt')
+          window.location.replace('/pt/')
         } else {
           localStorage.setItem('preferredLanguage', 'tr')
           window.location.replace('/tr/')

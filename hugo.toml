@@ -239,6 +239,314 @@ disableLanguages = []
       url = "/es/legal/dpa/"
       weight = 3
 
+  [languages.fr]
+    disabled = false
+    languageCode = 'fr'
+    languageDirection = 'ltr'
+    languageName = 'Français'
+    title = "Menu QR Gratuit et Système de Caisse en Nuage"
+    weight = 4
+    [languages.fr.params]
+      keywords = "menumix, menu qr, menu digital, gestion de restaurant, menu intelligent, menu qr digital"
+      analytics_id = "G-87QVM1L5HB"
+
+    [[languages.fr.menu.main]]
+      name = "Accueil"
+      url = "/fr/"
+      weight = 1
+
+    [[languages.fr.menu.main]]
+      name = "Fonctionnalités"
+      url = "/fr/#features"
+      weight = 2
+      [languages.fr.menu.main.params]
+        id="features"
+
+    [[languages.fr.menu.main]]
+      name = "Tarification"
+      url = "/fr/tarification"
+      weight = 99
+
+    [[languages.fr.menu.main]]
+      name = "FAQ"
+      url = "/fr/faq"
+      weight = 4
+
+    [[languages.fr.menu.main]]
+      name = "Blog"
+      url = "/fr/blog"
+      weight = 5
+
+    [[languages.fr.menu.features]]
+      name = "Menu QR"
+      url = "/fr/menu-qr"
+      weight = 1
+
+    [[languages.fr.menu.features]]
+      name = "Gestion des Commandes"
+      url = "/fr/gestion-des-commandes"
+      weight = 2
+
+    [[languages.fr.menu.features]]
+      name = "Gestion des Factures"
+      url = "/fr/gestion-des-factures"
+      weight = 3
+
+    [[languages.fr.menu.features]]
+      name = "Rapports et Analyses"
+      url = "/fr/rapports"
+      weight = 4
+
+    [[languages.fr.menu.features]]
+      name = "Traductions Automatiques"
+      url = "/fr/traductions-automatiques"
+      weight = 5
+
+    [[languages.fr.menu.legal]]
+      name = "Conditions d'Utilisation"
+      url = "/fr/legal/terms/"
+      weight = 1
+
+    [[languages.fr.menu.legal]]
+      name = "Politique de Confidentialité"
+      url = "/fr/legal/privacy/"
+      weight = 2
+    [[languages.fr.menu.legal]]
+      name = "Accord de Traitement des Données"
+      url = "/fr/legal/dpa/"
+      weight = 3
+
+  [languages.it]
+    disabled = false
+    languageCode = 'it'
+    languageDirection = 'ltr'
+    languageName = 'Italiano'
+    title = "Menu QR Gratuito e Sistema di Cassa in Cloud"
+    weight = 5
+    [languages.it.params]
+      keywords = "menumix, menu qr, menu digitale, gestione ristorante, menu intelligente, menu qr digitale"
+      analytics_id = "G-87QVM1L5HB"
+
+    [[languages.it.menu.main]]
+      name = "Home"
+      url = "/it/"
+      weight = 1
+
+    [[languages.it.menu.main]]
+      name = "Funzionalità"
+      url = "/it/#features"
+      weight = 2
+      [languages.it.menu.main.params]
+        id="features"
+
+    [[languages.it.menu.main]]
+      name = "Prezzi"
+      url = "/it/prezzi"
+      weight = 99
+
+    [[languages.it.menu.main]]
+      name = "FAQ"
+      url = "/it/faq"
+      weight = 4
+
+    [[languages.it.menu.main]]
+      name = "Blog"
+      url = "/it/blog"
+      weight = 5
+
+    [[languages.it.menu.features]]
+      name = "Menu QR"
+      url = "/it/menu-qr"
+      weight = 1
+
+    [[languages.it.menu.features]]
+      name = "Gestione Ordini"
+      url = "/it/gestione-ordini"
+      weight = 2
+
+    [[languages.it.menu.features]]
+      name = "Gestione Conti"
+      url = "/it/gestione-conti"
+      weight = 3
+
+    [[languages.it.menu.features]]
+      name = "Report e Analisi"
+      url = "/it/report"
+      weight = 4
+
+    [[languages.it.menu.features]]
+      name = "Traduzioni Automatiche"
+      url = "/it/traduzioni-automatiche"
+      weight = 5
+
+    [[languages.it.menu.legal]]
+      name = "Termini di Servizio"
+      url = "/it/legal/terms/"
+      weight = 1
+
+    [[languages.it.menu.legal]]
+      name = "Privacy Policy"
+      url = "/it/legal/privacy/"
+      weight = 2
+    [[languages.it.menu.legal]]
+      name = "Accordo di Elaborazione Dati"
+      url = "/it/legal/dpa/"
+      weight = 3
+
+  [languages.de]
+    disabled = false
+    languageCode = 'de'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = "Kostenloses QR-Menü und Cloud-Kassensystem"
+    weight = 6
+    [languages.de.params]
+      keywords = "menumix, qr menü, digitales menü, restaurant verwaltung, intelligentes menü, qr digitales menü"
+      analytics_id = "G-87QVM1L5HB"
+
+    [[languages.de.menu.main]]
+      name = "Startseite"
+      url = "/de/"
+      weight = 1
+
+    [[languages.de.menu.main]]
+      name = "Funktionen"
+      url = "/de/#features"
+      weight = 2
+      [languages.de.menu.main.params]
+        id="features"
+
+    [[languages.de.menu.main]]
+      name = "Preise"
+      url = "/de/preise"
+      weight = 99
+
+    [[languages.de.menu.main]]
+      name = "FAQ"
+      url = "/de/faq"
+      weight = 4
+
+    [[languages.de.menu.main]]
+      name = "Blog"
+      url = "/de/blog"
+      weight = 5
+
+    [[languages.de.menu.features]]
+      name = "QR-Menü"
+      url = "/de/qr-menue"
+      weight = 1
+
+    [[languages.de.menu.features]]
+      name = "Bestellverwaltung"
+      url = "/de/bestellverwaltung"
+      weight = 2
+
+    [[languages.de.menu.features]]
+      name = "Rechnungsverwaltung"
+      url = "/de/rechnungsverwaltung"
+      weight = 3
+
+    [[languages.de.menu.features]]
+      name = "Berichte und Analysen"
+      url = "/de/berichte"
+      weight = 4
+
+    [[languages.de.menu.features]]
+      name = "Automatische Übersetzungen"
+      url = "/de/automatische-uebersetzungen"
+      weight = 5
+
+    [[languages.de.menu.legal]]
+      name = "Nutzungsbedingungen"
+      url = "/de/legal/terms/"
+      weight = 1
+
+    [[languages.de.menu.legal]]
+      name = "Datenschutzerklärung"
+      url = "/de/legal/privacy/"
+      weight = 2
+    [[languages.de.menu.legal]]
+      name = "Datenverarbeitungsvertrag"
+      url = "/de/legal/dpa/"
+      weight = 3
+
+  [languages.pt]
+    disabled = false
+    languageCode = 'pt'
+    languageDirection = 'ltr'
+    languageName = 'Português'
+    title = "Menu QR Gratuito e Sistema de Caixa em Nuvem"
+    weight = 7
+    [languages.pt.params]
+      keywords = "menumix, menu qr, menu digital, gestão de restaurante, menu inteligente, menu qr digital"
+      analytics_id = "G-87QVM1L5HB"
+
+    [[languages.pt.menu.main]]
+      name = "Início"
+      url = "/pt/"
+      weight = 1
+
+    [[languages.pt.menu.main]]
+      name = "Funcionalidades"
+      url = "/pt/#features"
+      weight = 2
+      [languages.pt.menu.main.params]
+        id="features"
+
+    [[languages.pt.menu.main]]
+      name = "Preços"
+      url = "/pt/precos"
+      weight = 99
+
+    [[languages.pt.menu.main]]
+      name = "FAQ"
+      url = "/pt/faq"
+      weight = 4
+
+    [[languages.pt.menu.main]]
+      name = "Blog"
+      url = "/pt/blog"
+      weight = 5
+
+    [[languages.pt.menu.features]]
+      name = "Menu QR"
+      url = "/pt/menu-qr"
+      weight = 1
+
+    [[languages.pt.menu.features]]
+      name = "Gestão de Pedidos"
+      url = "/pt/gestao-pedidos"
+      weight = 2
+
+    [[languages.pt.menu.features]]
+      name = "Gestão de Contas"
+      url = "/pt/gestao-contas"
+      weight = 3
+
+    [[languages.pt.menu.features]]
+      name = "Relatórios e Análises"
+      url = "/pt/relatorios"
+      weight = 4
+
+    [[languages.pt.menu.features]]
+      name = "Traduções Automáticas"
+      url = "/pt/traducoes-automaticas"
+      weight = 5
+
+    [[languages.pt.menu.legal]]
+      name = "Termos de Serviço"
+      url = "/pt/legal/terms/"
+      weight = 1
+
+    [[languages.pt.menu.legal]]
+      name = "Política de Privacidade"
+      url = "/pt/legal/privacy/"
+      weight = 2
+    [[languages.pt.menu.legal]]
+      name = "Acordo de Processamento de Dados"
+      url = "/pt/legal/dpa/"
+      weight = 3
+
 [build]
   [build.buildStats]
     enable = true

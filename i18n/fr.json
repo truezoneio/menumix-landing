@@ -1,0 +1,99 @@
+{
+
+   "header_login": "Connexion",
+
+   "hero_title": "Créez votre Menu QR Gratuit",
+   "hero_subtitle": "Recevez les commandes des tables",
+   "hero_description": "Transformez votre menu papier en une expérience entièrement numérique. Laissez les clients scanner un code QR pour voir le menu, passer leurs commandes depuis la table et gérez toutes les commandes entrantes depuis un seul tableau de bord.",
+   
+   "hero_cta_button": "Créer un Menu Gratuit",
+   "hero_sample_button": "Menu Exemple ",
+
+   "highlight_1_subtitle": "Accélérez le Service",
+   "highlight_1_title": "Acceptez les Commandes de Table avec un Menu QR",
+   "highlight_1_description": "Les clients peuvent accéder instantanément au menu de votre restaurant en scannant le code QR sans télécharger d'application. Avec une interface conviviale, les clients peuvent parcourir le menu numérique, ajouter des articles à leur panier et commander de la nourriture directement depuis la table. La fonctionnalité de commande par code QR simplifie les opérations du restaurant, accélère le service et améliore l'expérience culinaire globale.",
+
+   "highlight_2_subtitle": "Gestion des Factures",
+   "highlight_2_title": "Suivez les commandes et les paiements",
+   "highlight_2_description": "La facture de chaque table est suivie en temps réel. Les articles ajoutés par les clients ou le personnel de service sont instantanément reflétés dans la facture. Les caissiers peuvent accepter les paiements en utilisant plusieurs méthodes, y compris les espèces, les cartes de crédit et les bons. Vous pouvez également diviser les factures par personne, fusionner ou transférer des tables, et clôturer les commandes en toute simplicité. La fonctionnalité de gestion des factures de restaurant assure une facturation précise, des paiements plus rapides et une expérience de paiement plus fluide.",
+
+   "highlight_3_subtitle": "Statistiques Détaillées",
+   "highlight_3_title": "Suivez les ventes et les analyses du menu QR",
+   "highlight_3_description": "Surveillez les performances de votre restaurant avec des analyses en temps réel. Suivez instantanément le total des ventes, les produits les plus vendus, les types de paiement et les dépenses par table. Identifiez vos heures de pointe et les articles de menu les plus performants avec des outils de reporting de restaurant détaillés. Générez des rapports de ventes hebdomadaires, mensuels et annuels pour prendre des décisions basées sur les données et développer votre activité.",
+
+  "highlight_4_subtitle": "Système d'Affichage de Cuisine",
+  "highlight_4_title": "Envoyez les commandes à la cuisine instantanément",
+  "highlight_4_description": "Les commandes passées via le Menu QR sont instantanément affichées sur l'écran de cuisine. Le personnel de cuisine peut clairement voir quels articles ont été commandés, par quelle table et à quelle heure. Les commandes sont priorisées, la préparation est rationalisée et le flux de service est géré efficacement via le tableau de bord de cuisine.",
+
+  "highlight_5_subtitle": "Support Multi-Langues",
+  "highlight_5_title": "Supportez 50+ langues avec traduction automatique",
+  "highlight_5_description": "Rendez votre menu numérique accessible à tous avec le support multi-langues et la traduction automatique. MenuMix traduit instantanément votre menu avec code QR en plus de 50 langues. Les clients peuvent voir votre menu dans leur langue préférée sans télécharger d'application. Cette fonctionnalité améliore l'expérience culinaire pour les clients internationaux et vous aide à servir un public mondial en toute simplicité.",
+
+ "pricing_subtitle": "Tarification",
+ "pricing_title": "Commencez Gratuitement - Améliorez à Tout Moment",
+ "pricing_description": "Vous pouvez créer votre menu QR gratuitement et passer au plan professionnel à tout moment pour accéder aux fonctionnalités avancées.",
+
+ "pricing_free_title": "Basique",
+ "pricing_free_description": "Créez et gérez votre menu QR gratuitement.",
+ "pricing_free_price": "Gratuit",
+
+ "pricing_pro_title": "Professionnel",
+"pricing_pro_description": "Gestion des commandes, support multi-langues et analyses",
+"pricing_pro_price_discount": "$30",
+"pricing_pro_price": "$25",
+"pricing_pro_month": "par mois",
+
+"pricing_feature_1": "Ajoutez des produits et catégories illimités",
+"pricing_feature_2": "Créez des tables et codes QR illimités",
+"pricing_feature_3": "Caractéristiques et options de produits",
+"pricing_feature_4": "Personnalisez les thèmes et couleurs du menu",
+"pricing_feature_5": "Choisissez une URL personnalisée pour votre entreprise",
+"pricing_feature_6": "Recevez les commandes des tables via code QR",
+"pricing_feature_7": "Suivi des commandes et affichage de cuisine",
+"pricing_feature_8": "Gestion des factures et suivi des paiements",
+"pricing_feature_9": "Rapports détaillés et analyses",
+"pricing_feature_10": "Utilisateurs illimités et contrôle des permissions",
+"pricing_feature_11": "Ajoutez plusieurs langues avec traduction automatique",
+"pricing_feature_all": "Toutes les fonctionnalités incluses dans le plan gratuit",
+
+
+"faq_subtitle": "FAQ",
+"faq_title": "Questions Fréquemment Posées",
+
+
+"faq_1_q": "Qu'est-ce qu'un Menu Numérique et comment fonctionne-t-il ?",
+"faq_1_a": "Un Menu QR Numérique est un système de menu sans contact qui permet à vos clients de visualiser instantanément votre menu et de passer des commandes en scannant un code QR avec leurs appareils mobiles.",
+
+"faq_2_q": "Qu'est-ce que le plan Menu QR Gratuit comprend ?",
+"faq_2_a": "Avec le plan de menu numérique gratuit, vous pouvez créer des catégories de produits, des articles et des tables illimités. Vous pouvez également ajouter l'emplacement de votre entreprise, les liens vers les réseaux sociaux, les heures d'ouverture et les détails Wi-Fi à votre menu. Une URL personnalisée pour votre entreprise peut être enregistrée, et vous pouvez personnaliser le thème et les couleurs du menu pour correspondre à votre marque. Avec la fonctionnalité 'Appeler le Serveur', vos clients peuvent appeler un serveur directement depuis le menu QR.",
+
+"faq_3_q": "Qu'est-ce qui rend le plan Menu QR Professionnel différent ?",
+"faq_3_a": "Le plan Menu QR Professionnel vous permet de recevoir les commandes directement depuis les tables, de gérer les factures depuis un seul panneau, et de gérer les opérations de cuisine avec un affichage de cuisine en direct. Vous pouvez générer des rapports de ventes détaillés pour mesurer les performances par articles de menu, catégories et tables, et obtenir des résumés de fin de journée. L'option multi-langues traduit automatiquement votre menu QR dans jusqu'à 5 langues sélectionnées. Vous pouvez également attribuer des rôles utilisateur tels que serveur, personnel de cuisine ou gestionnaire à vos employés.",
+
+"faq_4_q": "Puis-je personnaliser le design et les couleurs du menu ?",
+"faq_4_a": "Oui, dans les deux plans de menu QR gratuit et professionnel, vous pouvez entièrement personnaliser le thème et les couleurs du menu pour s'aligner sur votre marque.",
+
+"faq_5_q": "Combien de produits ou de tables puis-je ajouter ? Y a-t-il une limite de commandes ?",
+"faq_5_a": "Tous les plans permettent d'ajouter des produits, catégories et tables illimités. Dans le plan de menu professionnel, vous pouvez également recevoir et gérer des commandes illimitées.",
+
+"faq_6_q": "Mon Menu QR aura-t-il une URL personnalisée pour l'entreprise ?",
+"faq_6_a": "Oui. Dans tous les plans, vous pouvez choisir une URL personnalisée pour votre entreprise lors de l'inscription. Si une URL a déjà été prise par une autre entreprise, elle ne peut pas être réutilisée. Votre menu numérique sera accessible aux clients via cette URL.",
+
+"blog_title": "Blog",
+"blog_description": "Découvrez nos dernières actualités et mises à jour.",
+
+   "menu_legal": "Juridique",
+   "menu_features": "Fonctionnalités",
+   "menu_language": "Langue",
+
+   "downloads_subtitle": "Téléchargements de Logiciels",
+   "downloads_title": "Serveur d'Impression Menumix",
+   "downloads_description": "Téléchargez et installez le Serveur d'Impression Menumix pour imprimer automatiquement les commandes des tables directement sur votre imprimante de cuisine.",
+   "downloads_printer_server_title": "Serveur d'Impression Menumix v0.9.0",
+   "downloads_printer_server_description": "Cette application envoie automatiquement vos commandes de menu QR à votre imprimante de cuisine. Choisissez la version compatible avec votre système d'exploitation.",
+   "downloads_macos_arm": "macOS (Apple Silicon)",
+   "downloads_macos_intel": "macOS (Intel)",
+   "downloads_windows_64": "Windows (64-bit)",
+   "downloads_windows_32": "Windows (32-bit)"
+}
+

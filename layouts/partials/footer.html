@@ -30,6 +30,10 @@
                         <button onclick="toggleLangMenu()" class="flex items-center px-4 lg:px-5 py-2 lg:py-2.5 text-sm font-medium text-white hover:bg-neutral-800 rounded-lg border border-neutral-700">
                             {{ if eq site.Language.Lang "tr" }} 🇹🇷 Türkçe
                                 {{ else if eq site.Language.Lang "es" }} 🇪🇸 Español
+                                {{ else if eq site.Language.Lang "fr" }} 🇫🇷 Français
+                                {{ else if eq site.Language.Lang "it" }} 🇮🇹 Italiano
+                                {{ else if eq site.Language.Lang "de" }} 🇩🇪 Deutsch
+                                {{ else if eq site.Language.Lang "pt" }} 🇵🇹 Português
                                 {{ else }} 🇺🇸 English
                             {{ end }}
                             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
@@ -49,6 +53,26 @@
                             <li>
                                 <a href="/es/" onclick="setLang('es')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
                                 🇪🇸 Español
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/fr/" onclick="setLang('fr')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                🇫🇷 Français
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/it/" onclick="setLang('it')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                🇮🇹 Italiano
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/de/" onclick="setLang('de')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                🇩🇪 Deutsch
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pt/" onclick="setLang('pt')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                🇵🇹 Português
                                 </a>
                             </li>
                             </ul>

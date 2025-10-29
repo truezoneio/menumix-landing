@@ -1,0 +1,99 @@
+{
+
+   "header_login": "Anmelden",
+
+   "hero_title": "Erstellen Sie Ihr kostenloses QR-Menü",
+   "hero_subtitle": "Empfangen Sie Bestellungen von Tischen",
+   "hero_description": "Verwandeln Sie Ihr Papier-Menü in ein vollständig digitales Erlebnis. Lassen Sie Gäste einen QR-Code scannen, um das Menü anzusehen, ihre Bestellungen vom Tisch aus aufzugeben und alle eingehenden Bestellungen von einem einzigen Dashboard aus zu verwalten.",
+   
+   "hero_cta_button": "Kostenloses Menü erstellen",
+   "hero_sample_button": "Beispiel-Menü ",
+
+   "highlight_1_subtitle": "Beschleunigen Sie den Service",
+   "highlight_1_title": "Nehmen Sie Tischbestellungen mit einem QR-Menü entgegen",
+   "highlight_1_description": "Gäste können sofort auf Ihr Restaurant-Menü zugreifen, indem sie den QR-Code scannen, ohne eine App herunterzuladen. Mit einer benutzerfreundlichen Oberfläche können Kunden das digitale Menü durchsuchen, Artikel in ihren Warenkorb legen und Essen direkt vom Tisch aus bestellen. Die QR-Code-Bestellfunktion vereinfacht Restaurantbetriebe, beschleunigt den Service und verbessert das gesamte Restaurant-Erlebnis.",
+
+   "highlight_2_subtitle": "Rechnungsverwaltung",
+   "highlight_2_title": "Verfolgen Sie Bestellungen und Zahlungen",
+   "highlight_2_description": "Die Rechnung jedes Tisches wird in Echtzeit verfolgt. Artikel, die von Kunden oder Servicepersonal hinzugefügt werden, werden sofort in der Rechnung widergespiegelt. Kassierer können Zahlungen mit mehreren Methoden akzeptieren, einschließlich Bargeld, Kreditkarten und Gutscheinen. Sie können auch Rechnungen pro Person aufteilen, Tische zusammenführen oder übertragen und Bestellungen problemlos abschließen. Die Restaurant-Rechnungsverwaltungsfunktion gewährleistet genaue Abrechnung, schnellere Zahlungen und ein reibungsloseres Checkout-Erlebnis.",
+
+   "highlight_3_subtitle": "Detaillierte Statistiken",
+   "highlight_3_title": "Verfolgen Sie Verkäufe und QR-Menü-Analysen",
+   "highlight_3_description": "Überwachen Sie die Leistung Ihres Restaurants mit Echtzeit-Analysen. Verfolgen Sie sofort Gesamtumsätze, Bestseller-Produkte, Zahlungsarten und Tischausgaben. Identifizieren Sie Ihre geschäftigsten Stunden und leistungsstärksten Menüpunkte mit detaillierten Restaurant-Berichtstools. Generieren Sie wöchentliche, monatliche und jährliche Verkaufsberichte, um datengesteuerte Entscheidungen zu treffen und Ihr Geschäft zu erweitern.",
+
+  "highlight_4_subtitle": "Kitchen Display System",
+  "highlight_4_title": "Senden Sie Bestellungen sofort an die Küche",
+  "highlight_4_description": "Bestellungen, die über das QR-Menü aufgegeben werden, werden sofort auf dem Küchenbildschirm angezeigt. Das Küchenpersonal kann klar sehen, welche Artikel bestellt wurden, von welchem Tisch und wann. Bestellungen werden priorisiert, die Zubereitung wird rationalisiert und der Servicefluss wird effizient über das Küchen-Dashboard verwaltet.",
+
+  "highlight_5_subtitle": "Mehrsprachige Unterstützung",
+  "highlight_5_title": "Unterstützung für 50+ Sprachen mit automatischer Übersetzung",
+  "highlight_5_description": "Machen Sie Ihr digitales Menü für alle zugänglich mit mehrsprachiger Unterstützung und automatischer Übersetzung. MenuMix übersetzt Ihr QR-Code-Menü sofort in mehr als 50 Sprachen. Gäste können Ihr Menü in ihrer bevorzugten Sprache ansehen, ohne eine App herunterzuladen. Diese Funktion verbessert das Restaurant-Erlebnis für internationale Kunden und hilft Ihnen, ein globales Publikum mit Leichtigkeit zu bedienen.",
+
+ "pricing_subtitle": "Preise",
+ "pricing_title": "Starten Sie kostenlos - jederzeit upgraden",
+ "pricing_description": "Sie können Ihr QR-Menü kostenlos erstellen und jederzeit auf den Professional-Plan upgraden, um auf erweiterte Funktionen zuzugreifen.",
+
+ "pricing_free_title": "Basis",
+ "pricing_free_description": "Erstellen und verwalten Sie Ihr QR-Menü kostenlos.",
+ "pricing_free_price": "Kostenlos",
+
+ "pricing_pro_title": "Professional",
+"pricing_pro_description": "Bestellverwaltung, mehrsprachige Unterstützung und Analysen",
+"pricing_pro_price_discount": "$30",
+"pricing_pro_price": "$25",
+"pricing_pro_month": "pro Monat",
+
+"pricing_feature_1": "Fügen Sie unbegrenzte Produkte und Kategorien hinzu",
+"pricing_feature_2": "Erstellen Sie unbegrenzte Tische und QR-Codes",
+"pricing_feature_3": "Produktfunktionen und Optionen",
+"pricing_feature_4": "Personalisiert Menü-Themen und Farben",
+"pricing_feature_5": "Wählen Sie eine benutzerdefinierte Geschäfts-URL",
+"pricing_feature_6": "Empfangen Sie Bestellungen von Tischen über QR-Code",
+"pricing_feature_7": "Bestellverfolgung und Küchenanzeige",
+"pricing_feature_8": "Rechnungsverwaltung und Zahlungsverfolgung",
+"pricing_feature_9": "Detaillierte Berichte und Analysen",
+"pricing_feature_10": "Unbegrenzte Benutzer und Berechtigungskontrolle",
+"pricing_feature_11": "Fügen Sie mehrere Sprachen mit automatischer Übersetzung hinzu",
+"pricing_feature_all": "Alle Funktionen des kostenlosen Plans inbegriffen",
+
+
+"faq_subtitle": "FAQ",
+"faq_title": "Häufig gestellte Fragen",
+
+
+"faq_1_q": "Was ist ein digitales Menü und wie funktioniert es?",
+"faq_1_a": "Ein digitales QR-Menü ist ein kontaktloses Menüsystem, das Ihren Kunden ermöglicht, Ihr Menü sofort anzuzeigen und Bestellungen aufzugeben, indem sie einen QR-Code mit ihren Mobilgeräten scannen.",
+
+"faq_2_q": "Was ist im kostenlosen QR-Menü-Plan enthalten?",
+"faq_2_a": "Mit dem kostenlosen digitalen Menü-Paket können Sie unbegrenzte Produktkategorien, Artikel und Tische erstellen. Sie können auch Ihren Geschäftsstandort, Links zu sozialen Medien, Öffnungszeiten und Wi-Fi-Details zu Ihrem Menü hinzufügen. Eine benutzerdefinierte Geschäfts-URL kann registriert werden, und Sie können das Thema und die Farben des Menüs anpassen, um zu Ihrer Marke zu passen. Mit der Funktion 'Kellner rufen' können Ihre Kunden direkt aus dem QR-Menü einen Kellner rufen.",
+
+"faq_3_q": "Was macht den Professional QR-Menü-Plan anders?",
+"faq_3_a": "Der Professional QR-Menü-Plan ermöglicht es Ihnen, Bestellungen direkt von Tischen zu empfangen, Rechnungen von einem einzigen Panel aus zu verwalten und Küchenbetriebe mit einem Live-Küchen-Display zu handhaben. Sie können detaillierte Verkaufsberichte erstellen, um die Leistung nach Menüpunkten, Kategorien und Tischen zu messen, und Tageszusammenfassungen erhalten. Die Mehrsprachigkeitsoption übersetzt Ihr QR-Menü automatisch in bis zu 5 ausgewählte Sprachen. Sie können auch Benutzerrollen wie Kellner, Küchenpersonal oder Manager Ihren Mitarbeitern zuweisen.",
+
+"faq_4_q": "Kann ich das Menüdesign und die Farben anpassen?",
+"faq_4_a": "Ja, sowohl in den kostenlosen als auch in den Professional QR-Menü-Plänen können Sie das Thema und die Farben des Menüs vollständig anpassen, um zu Ihrer Marke zu passen.",
+
+"faq_5_q": "Wie viele Produkte oder Tische kann ich hinzufügen? Gibt es ein Bestelllimit?",
+"faq_5_a": "Alle Pläne erlauben das Hinzufügen unbegrenzter Produkte, Kategorien und Tische. Im Professional-Menü-Plan können Sie auch unbegrenzte Bestellungen empfangen und verwalten.",
+
+"faq_6_q": "Wird mein QR-Menü eine benutzerdefinierte Geschäfts-URL haben?",
+"faq_6_a": "Ja. In allen Plänen können Sie während der Registrierung eine benutzerdefinierte URL für Ihr Geschäft wählen. Wenn eine URL bereits von einem anderen Geschäft verwendet wurde, kann sie nicht wiederverwendet werden. Ihr digitales Menü wird Kunden über diese URL zugänglich sein.",
+
+"blog_title": "Blog",
+"blog_description": "Entdecken Sie unsere neuesten Nachrichten und Updates.",
+
+   "menu_legal": "Rechtliches",
+   "menu_features": "Funktionen",
+   "menu_language": "Sprache",
+
+   "downloads_subtitle": "Software-Downloads",
+   "downloads_title": "Menumix Druckerserver",
+   "downloads_description": "Laden Sie den Menumix Druckerserver herunter und installieren Sie ihn, um Bestellungen von Tischen automatisch direkt auf Ihren Küchendrucker zu drucken.",
+   "downloads_printer_server_title": "Menumix Druckerserver v0.9.0",
+   "downloads_printer_server_description": "Diese Anwendung sendet Ihre QR-Menü-Bestellungen automatisch an Ihren Küchendrucker. Wählen Sie die Version, die mit Ihrem Betriebssystem kompatibel ist.",
+   "downloads_macos_arm": "macOS (Apple Silicon)",
+   "downloads_macos_intel": "macOS (Intel)",
+   "downloads_windows_64": "Windows (64-bit)",
+   "downloads_windows_32": "Windows (32-bit)"
+}
+
