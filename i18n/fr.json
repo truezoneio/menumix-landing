@@ -4,30 +4,30 @@
 
    "hero_title": "Créez votre Menu QR Gratuit",
    "hero_subtitle": "Recevez les commandes des tables",
-   "hero_description": "Transformez votre menu papier en une expérience entièrement numérique. Laissez les clients scanner un code QR pour voir le menu, passer leurs commandes depuis la table et gérez toutes les commandes entrantes depuis un seul tableau de bord.",
+   "hero_description": "Transformez votre menu papier en une expérience numérique. Laissez les clients scanner un code QR pour voir le menu et passer leurs commandes depuis la table.",
    
    "hero_cta_button": "Créer un Menu Gratuit",
    "hero_sample_button": "Menu Exemple ",
 
    "highlight_1_subtitle": "Accélérez le Service",
    "highlight_1_title": "Acceptez les Commandes de Table avec un Menu QR",
-   "highlight_1_description": "Les clients peuvent accéder instantanément au menu de votre restaurant en scannant le code QR sans télécharger d'application. Avec une interface conviviale, les clients peuvent parcourir le menu numérique, ajouter des articles à leur panier et commander de la nourriture directement depuis la table. La fonctionnalité de commande par code QR simplifie les opérations du restaurant, accélère le service et améliore l'expérience culinaire globale.",
+   "highlight_1_description": "Les clients peuvent accéder instantanément à votre menu en scannant un code QR. Parcourez les articles, ajoutez-les au panier et commandez directement depuis la table—aucun téléchargement d'application requis.",
 
    "highlight_2_subtitle": "Gestion des Factures",
    "highlight_2_title": "Suivez les commandes et les paiements",
-   "highlight_2_description": "La facture de chaque table est suivie en temps réel. Les articles ajoutés par les clients ou le personnel de service sont instantanément reflétés dans la facture. Les caissiers peuvent accepter les paiements en utilisant plusieurs méthodes, y compris les espèces, les cartes de crédit et les bons. Vous pouvez également diviser les factures par personne, fusionner ou transférer des tables, et clôturer les commandes en toute simplicité. La fonctionnalité de gestion des factures de restaurant assure une facturation précise, des paiements plus rapides et une expérience de paiement plus fluide.",
+   "highlight_2_description": "Suivez la facture de chaque table en temps réel. Acceptez plusieurs méthodes de paiement, divisez les factures, fusionnez les tables et gérez les commandes depuis un seul tableau de bord.",
 
    "highlight_3_subtitle": "Statistiques Détaillées",
    "highlight_3_title": "Suivez les ventes et les analyses du menu QR",
-   "highlight_3_description": "Surveillez les performances de votre restaurant avec des analyses en temps réel. Suivez instantanément le total des ventes, les produits les plus vendus, les types de paiement et les dépenses par table. Identifiez vos heures de pointe et les articles de menu les plus performants avec des outils de reporting de restaurant détaillés. Générez des rapports de ventes hebdomadaires, mensuels et annuels pour prendre des décisions basées sur les données et développer votre activité.",
+   "highlight_3_description": "Surveillez les performances avec des analyses en temps réel. Suivez les ventes, les produits les plus vendus, les types de paiement et générez des rapports détaillés pour des décisions basées sur les données.",
 
   "highlight_4_subtitle": "Système d'Affichage de Cuisine",
   "highlight_4_title": "Envoyez les commandes à la cuisine instantanément",
-  "highlight_4_description": "Les commandes passées via le Menu QR sont instantanément affichées sur l'écran de cuisine. Le personnel de cuisine peut clairement voir quels articles ont été commandés, par quelle table et à quelle heure. Les commandes sont priorisées, la préparation est rationalisée et le flux de service est géré efficacement via le tableau de bord de cuisine.",
+  "highlight_4_description": "Les commandes apparaissent instantanément sur l'écran de cuisine. Le personnel peut voir les articles, les numéros de table et les horaires. Gérez la préparation efficacement avec des commandes prioritaires.",
 
   "highlight_5_subtitle": "Support Multi-Langues",
   "highlight_5_title": "Supportez 50+ langues avec traduction automatique",
-  "highlight_5_description": "Rendez votre menu numérique accessible à tous avec le support multi-langues et la traduction automatique. MenuMix traduit instantanément votre menu avec code QR en plus de 50 langues. Les clients peuvent voir votre menu dans leur langue préférée sans télécharger d'application. Cette fonctionnalité améliore l'expérience culinaire pour les clients internationaux et vous aide à servir un public mondial en toute simplicité.",
+  "highlight_5_description": "Prenez en charge 50+ langues avec la traduction automatique. Votre menu QR est instantanément disponible en plusieurs langues—aucun téléchargement d'application requis pour les clients.",
 
  "pricing_subtitle": "Tarification",
  "pricing_title": "Commencez Gratuitement - Améliorez à Tout Moment",

@@ -4,29 +4,29 @@
 
    "hero_title": "Ücretsiz QR Menü oluştur",
    "hero_subtitle": "Masadan sipariş al",
-   "hero_description": "Dijital menü ile müşterilerinize temassız, hızlı ve modern bir sipariş deneyimi sunun. İşletmenizin sipariş yönetim ve raporlama süreçlerini tek bir panelden yönetin.",
+   "hero_description": "Kağıt menünüzü dijital bir deneyime dönüştürün. Misafirleriniz QR kodu okutarak menüyü görüntüleyip masadan sipariş verebilir.",
    "hero_cta_button": "Ücretsiz Menü Oluştur",
    "hero_sample_button": "Örnek Menü",
 
    "highlight_1_subtitle": "Anında Masadan Sipariş",
    "highlight_1_title": "QR Menü ile masalardan sipariş al",
-   "highlight_1_description": "Misafirleriniz hiçbir uygulama indirmeden QR kodu okutarak restoran menünüze anında ulaşabilir ve tüm akıllı telefonlarla uyumlu menü arayüzü sayesinde ürünleri sepete ekleyebilir, yemek siparişlerini doğrudan masadan verebilirler. Kare kod ile masadan sipariş özelliği, restoran operasyonlarını kolaylaştırır, servisi hızlandırır ve genel müşteri deneyimini iyileştirir.",
+   "highlight_1_description": "Misafirleriniz QR kod okutarak menünüze anında ulaşabilir. Ürünleri inceleyin, sepete ekleyin ve doğrudan masadan sipariş verin—uygulama indirme gerekmez.",
 
    "highlight_2_subtitle": "Restoran Adisyon Yönetimi",
    "highlight_2_title": "Adisyonları ve ödemeleri yönet",
-   "highlight_2_description": "Adisyon takip sistemi ile müşteriler ya da garsonlar tarafından verilen siparişleri canlı olarak takip edebilirsiniz. Nakit, kredi kartı veya yemek kartı gibi farklı ödeme yöntemleri ile ödeme kayıtları oluşturabilir,  parçalı ödeme alabilir, masaları birleştirebilir veya aktarabilirsiniz.",
+   "highlight_2_description": "Her masanın hesabını gerçek zamanlı olarak takip edin. Birden fazla ödeme yöntemini kabul edin, hesapları bölün, masaları birleştirin ve siparişleri tek bir panelden yönetin.",
 
    "highlight_3_subtitle": "Detaylı İstatistikler",
    "highlight_3_title": "QR Menü ve masa performansını ölçümle",
-   "highlight_3_description": "Restoran performansınızı ayrıntılı analizlerle izleyin. Toplam satışlar, gün sonu raporları, en çok satan ürünler, ödeme yöntemleri ve masa harcamalarını anında görüntüleyin. Yoğun saatlerinizi ve en iyi performans gösteren menü ürünlerinizi belirleyin. Haftalık, aylık ve yıllık satış raporları sayesinde işletmenizi büyütmek için veri odaklı kararlar alın.",
+   "highlight_3_description": "Performansı gerçek zamanlı analizlerle izleyin. Satışları, en çok satan ürünleri, ödeme türlerini takip edin ve veri odaklı kararlar için detaylı raporlar oluşturun.",
 
    "highlight_4_subtitle": "Canlı Mutfak Ekranı",
    "highlight_4_title": "Siparişleri anında mutfağa aktar",
-   "highlight_4_description": "QR Menü üzerinden verilen siparişler doğrudan mutfak ekranına iletilir. Hangi ürünün, hangi masa tarafından ve ne zaman sipariş edildiği mutfak personeli tarafından görülür. Adisyonlar önceliklendirilir, hazırlık süreci hızlanır ve servis akışı mutfak yönetim ekranı üzerinden takip edilir.",
+   "highlight_4_description": "Siparişler anında mutfak ekranında görünür. Personel ürünleri, masa numaralarını ve saatleri görebilir. Öncelikli siparişlerle hazırlığı verimli bir şekilde yönetin.",
 
    "highlight_5_subtitle": "Çoklu Dil Desteği",
    "highlight_5_title": "50+ Dilde otomatik menü çevirisi",
-   "highlight_5_description": "MenuMix, dijital QR menünüzü 50+ dile otomatik olarak çevirir. Misafirleriniz, QR kodu okutarak menüyü kendi dilinde görüntüleyebilir. Çoklu dil çevirisi ile yabancı misafirlerinizi memnun ederken restoranınızın uluslararası müşteri kitlesine hitap etmesini sağlarsınız.",
+   "highlight_5_description": "Otomatik çeviri ile 50+ dil desteği. QR menünüz anında birden fazla dilde mevcuttur—misafirler için uygulama indirme gerekmez.",
 
 "pricing_subtitle": "Fiyatlandırma",
 "pricing_title": "Ücretsiz Başla - İstediğinde Yükselt",

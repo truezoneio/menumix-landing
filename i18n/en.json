@@ -4,30 +4,30 @@
 
    "hero_title": "Create Free QR Menu",
    "hero_subtitle": "Receive orders from tables",
-   "hero_description": "Transform your paper menu into a fully digital experience. Let guests scan a QR code to view the menu, place their orders from the table, and manage all incoming orders from a single dashboard.",
+   "hero_description": "Transform your paper menu into a digital experience. Let guests scan a QR code to view the menu and place orders from their table.",
    
    "hero_cta_button": "Create Free Menu",
    "hero_sample_button": "Sample Menu ",
 
    "highlight_1_subtitle": "Speed Up Service",
    "highlight_1_title": "Accept Table Orders with a QR Menu",
-   "highlight_1_description": "Guests can instantly access your restaurant menu by scanning the QR code without downloading any app. With a user-friendly interface, customers can browse the digital menu, add items to their basket, and order food directly from the table. The QR code ordering feature simplifies restaurant operations, speeds up service, and improves the overall dining experience.",
+   "highlight_1_description": "Guests can access your menu instantly by scanning a QR code. Browse items, add to cart, and order directly from the table—no app download required.",
 
    "highlight_2_subtitle": "Bill Management",
    "highlight_2_title": "Track orders and payments",
-   "highlight_2_description": "Each table’s bill is tracked in real time. Items added by customers or waitstaff are instantly reflected in the bill. Cashiers can accept payments using multiple methods, including cash, credit cards, and vouchers. You can also split bills by person, merge or transfer tables, and close orders with ease. The restaurant bill management feature ensures accurate billing, faster payments, and a smoother checkout experience.",
+   "highlight_2_description": "Track each table's bill in real time. Accept multiple payment methods, split bills, merge tables, and manage orders from a single dashboard.",
 
    "highlight_3_subtitle": "Detailed Statistics",
    "highlight_3_title": "Track sales and QR menu analytics",
-   "highlight_3_description": "Monitor your restaurant’s performance with real-time analytics. Instantly track total sales, top-selling products, payment types, and table spending. Identify your busiest hours and best-performing menu items with detailed restaurant reporting tools. Generate weekly, monthly, and yearly sales reports to make data-driven decisions and grow your business.",
+   "highlight_3_description": "Monitor performance with real-time analytics. Track sales, top products, payment types, and generate detailed reports to make data-driven decisions.",
 
   "highlight_4_subtitle": "Kitchen Display System",
   "highlight_4_title": "Send orders to the kitchen instantly",
-  "highlight_4_description": "Orders placed through the QR Menu are instantly displayed on the kitchen screen. Kitchen staff can clearly see which items were ordered, by which table, and when. Orders are prioritized, preparation is streamlined, and service flow is efficiently managed through the kitchen dashboard.",
+  "highlight_4_description": "Orders appear instantly on the kitchen screen. Staff can see items, table numbers, and timing. Manage preparation efficiently with prioritized orders.",
 
   "highlight_5_subtitle": "Multi-Language Support",
   "highlight_5_title": "Support 50+ languages with auto translation",
-  "highlight_5_description": "Make your digital menu accessible to everyone with multi-language support and auto translation. MenuMix instantly translates your QR code menu into more than 50 languages. Guests can view your menu in their preferred language without downloading any app. This feature enhances the dining experience for international customers and helps you serve a global audience with ease.",
+  "highlight_5_description": "Support 50+ languages with automatic translation. Your QR menu is instantly available in multiple languages—no app download required for guests.",
 
  "pricing_subtitle": "Pricing",
  "pricing_title": "Start Free - Upgrade Anytime",
