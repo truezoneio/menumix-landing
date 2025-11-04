@@ -18,6 +18,7 @@ disableLanguages = []
     [languages.tr.params]
       keywords = "menumix, menu mix, qr menü, dijital menü, restoran yönetimi, qr dijital menü, akıllı menü"
       analytics_id = "G-87QVM1L5HB"
+      pixel_id = "1605603883754777"
 
     [[languages.tr.menu.main]]
       name = "Anasayfa"
@@ -95,6 +96,7 @@ disableLanguages = []
     [languages.en.params]
       keywords = "menumix, menu mix, qr menu, digital menu, restaurant management, qr digital menu, smart menu"
       analytics_id = "G-VD8JMH8CKP"
+      pixel_id = "687467567574181"
 
     [[languages.en.menu.main]]
       name = "Home"
