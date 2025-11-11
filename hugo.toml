@@ -556,6 +556,84 @@ disableLanguages = []
       url = "/pt/legal/dpa/"
       weight = 3
 
+  [languages.th]
+    disabled = false
+    languageCode = 'th'
+    languageDirection = 'ltr'
+    languageName = 'ไทย'
+    title = "QR Menu ฟรีและระบบ POS บนคลาวด์"
+    weight = 8
+    [languages.th.params]
+      keywords = "menumix, เมนู qr, เมนูดิจิทัล, การจัดการร้านอาหาร, เมนูอัจฉริยะ, เมนู qr ดิจิทัล"
+      analytics_id = "G-87QVM1L5HB"
+      description = "QR Menu ฟรีสำหรับร้านอาหารของคุณ—ไม่ต้องใช้บัตรเครดิต สร้างเมนูดิจิทัลของคุณในไม่กี่นาที รับออเดอร์จากโต๊ะทันที และเติบโตธุรกิจของคุณโดยไม่มีค่าใช้จ่ายล่วงหน้า"
+
+    [[languages.th.menu.main]]
+      name = "หน้าแรก"
+      url = "/th/"
+      weight = 1
+
+    [[languages.th.menu.main]]
+      name = "คุณสมบัติ"
+      url = "/th/#features"
+      weight = 2
+      [languages.th.menu.main.params]
+        id="features"
+
+    [[languages.th.menu.main]]
+      name = "ราคา"
+      url = "/th/pricing"
+      weight = 99
+
+    [[languages.th.menu.main]]
+      name = "คำถามที่พบบ่อย"
+      url = "/th/faq"
+      weight = 4
+
+    [[languages.th.menu.main]]
+      name = "บล็อก"
+      url = "/th/blog"
+      weight = 5
+
+    [[languages.th.menu.features]]
+      name = "QR Menu"
+      url = "/th/qr-menu"
+      weight = 1
+
+    [[languages.th.menu.features]]
+      name = "การจัดการออเดอร์"
+      url = "/th/order-management"
+      weight = 2
+
+    [[languages.th.menu.features]]
+      name = "การจัดการบิล"
+      url = "/th/bill-management"
+      weight = 3
+
+    [[languages.th.menu.features]]
+      name = "รายงานและการวิเคราะห์"
+      url = "/th/reporting"
+      weight = 4
+
+    [[languages.th.menu.features]]
+      name = "การแปลอัตโนมัติ"
+      url = "/th/automatic-translations"
+      weight = 5
+
+    [[languages.th.menu.legal]]
+      name = "เงื่อนไขการให้บริการ"
+      url = "/th/legal/terms/"
+      weight = 1
+
+    [[languages.th.menu.legal]]
+      name = "นโยบายความเป็นส่วนตัว"
+      url = "/th/legal/privacy/"
+      weight = 2
+    [[languages.th.menu.legal]]
+      name = "ข้อตกลงการประมวลผลข้อมูล"
+      url = "/th/legal/dpa/"
+      weight = 3
+
 [build]
   [build.buildStats]
     enable = true

@@ -16,7 +16,11 @@
 <section class="bg-neutral-100 mt-24 lg:mt-12 mb-24">
     <div class="flex flex-col max-w-screen-xl mx-auto lg:gap-8 xl:gap-0">
         <div class="max-w-4xl mx-auto" style="margin-top: -120px">
+            {{ if eq .Site.Language.Lang "th" }}
+            <img src="/images/hero_en.webp" alt="menumix_qr">
+            {{ else }}
             <img src="/images/hero_{{ .Site.Language.Lang }}.webp" alt="menumix_qr">
+            {{ end }}
         </div>                
     </div>
 </section>

@@ -10,7 +10,11 @@
             </div>
         </div>
         <div class="hidden md:flex flex-2 mt-8 max-w-6xl mx-auto">
+            {{ if eq .Site.Language.Lang "th" }}
+            <img src="/images/hero_en.webp" alt="menumix_qr">
+            {{ else }}
             <img src="/images/hero_{{ .Site.Language.Lang }}.webp" alt="menumix_qr">
+            {{ end }}
         </div>                
     </div>
 </section>
@@ -34,6 +38,7 @@
                                 {{ else if eq site.Language.Lang "it" }} 🇮🇹 Italiano
                                 {{ else if eq site.Language.Lang "de" }} 🇩🇪 Deutsch
                                 {{ else if eq site.Language.Lang "pt" }} 🇵🇹 Português
+                                {{ else if eq site.Language.Lang "th" }} 🇹🇭 ไทย
                                 {{ else }} 🇺🇸 English
                             {{ end }}
                             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
@@ -73,6 +78,11 @@
                             <li>
                                 <a href="/pt/" onclick="setLang('pt')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
                                 🇵🇹 Português
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/th/" onclick="setLang('th')" class="block px-4 py-2 text-sm text-white hover:bg-neutral-700">
+                                🇹🇭 ไทย
                                 </a>
                             </li>
                             </ul>
