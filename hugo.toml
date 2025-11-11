@@ -19,6 +19,7 @@ disableLanguages = []
       keywords = "menumix, menu mix, qr menü, dijital menü, restoran yönetimi, qr dijital menü, akıllı menü"
       analytics_id = "G-87QVM1L5HB"
       pixel_id = "1605603883754777"
+      description = "Restoranınız için ücretsiz QR Menü—kredi kartı gerekmez. Dijital menünüzü dakikalar içinde oluşturun, masalardan anında sipariş alın ve sıfır başlangıç maliyetiyle işletmenizi büyütün."
 
     [[languages.tr.menu.main]]
       name = "Anasayfa"
@@ -97,6 +98,7 @@ disableLanguages = []
       keywords = "menumix, menu mix, qr menu, digital menu, restaurant management, qr digital menu, smart menu"
       analytics_id = "G-VD8JMH8CKP"
       pixel_id = "687467567574181"
+      description = "Free QR Menu for your restaurant—no credit card required. Create your digital menu in minutes, accept table orders instantly, and grow your business with zero upfront costs."
 
     [[languages.en.menu.main]]
       name = "Home"
@@ -173,6 +175,7 @@ disableLanguages = []
     [languages.es.params]
       keywords = "menumix, menú qr, menú digital, gestión de restaurante, menú inteligente, menú digital qr"
       analytics_id = "G-EF6K11Z3ZQ"
+      description = "Carta Digital QR Gratis para tu restaurante—sin tarjeta de crédito. Crea tu menú digital en minutos, acepta pedidos de mesas al instante y haz crecer tu negocio sin costos iniciales."
 
     [[languages.es.menu.main]]
       name = "Inicio"
@@ -251,6 +254,7 @@ disableLanguages = []
     [languages.fr.params]
       keywords = "menumix, menu qr, menu digital, gestion de restaurant, menu intelligent, menu qr digital"
       analytics_id = "G-87QVM1L5HB"
+      description = "Menu QR Gratuit pour votre restaurant—aucune carte de crédit requise. Créez votre menu numérique en quelques minutes, acceptez les commandes de table instantanément et développez votre activité sans frais initiaux."
 
     [[languages.fr.menu.main]]
       name = "Accueil"
@@ -328,6 +332,7 @@ disableLanguages = []
     [languages.it.params]
       keywords = "menumix, menu qr, menu digitale, gestione ristorante, menu intelligente, menu qr digitale"
       analytics_id = "G-87QVM1L5HB"
+      description = "Menu QR Gratuito per il tuo ristorante—nessuna carta di credito richiesta. Crea il tuo menu digitale in pochi minuti, accetta ordini dai tavoli all'istante e fai crescere il tuo business senza costi iniziali."
 
     [[languages.it.menu.main]]
       name = "Home"
@@ -405,6 +410,7 @@ disableLanguages = []
     [languages.de.params]
       keywords = "menumix, qr menü, digitales menü, restaurant verwaltung, intelligentes menü, qr digitales menü"
       analytics_id = "G-87QVM1L5HB"
+      description = "Kostenloses QR-Menü für Ihr Restaurant—keine Kreditkarte erforderlich. Erstellen Sie Ihr digitales Menü in Minuten, nehmen Sie Tischbestellungen sofort entgegen und wachsen Sie Ihr Geschäft ohne Startkosten."
 
     [[languages.de.menu.main]]
       name = "Startseite"
@@ -482,6 +488,7 @@ disableLanguages = []
     [languages.pt.params]
       keywords = "menumix, menu qr, menu digital, gestão de restaurante, menu inteligente, menu qr digital"
       analytics_id = "G-87QVM1L5HB"
+      description = "Menu QR Gratuito para seu restaurante—sem necessidade de cartão de crédito. Crie seu menu digital em minutos, aceite pedidos das mesas instantaneamente e faça seu negócio crescer sem custos iniciais."
 
     [[languages.pt.menu.main]]
       name = "Início"
@@ -572,4 +579,4 @@ disableLanguages = []
     target = 'assets/notwatching/hugo_stats.json'
 
 [params]
-  description = "Easy QR Menu"
+  description = "Free QR Menu for your restaurant—no credit card required. Create your digital menu in minutes, accept table orders instantly, and grow your business with zero upfront costs."
