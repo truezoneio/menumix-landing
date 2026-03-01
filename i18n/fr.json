@@ -89,7 +89,7 @@
    "downloads_subtitle": "Téléchargements de Logiciels",
    "downloads_title": "Serveur d'Impression Menumix",
    "downloads_description": "Téléchargez et installez le Serveur d'Impression Menumix pour imprimer automatiquement les commandes des tables directement sur votre imprimante de cuisine.",
-   "downloads_printer_server_title": "Serveur d'Impression Menumix v0.9.0",
+   "downloads_printer_server_title": "Serveur d'Impression Menumix v0.10.0",
    "downloads_printer_server_description": "Cette application envoie automatiquement vos commandes de menu QR à votre imprimante de cuisine. Choisissez la version compatible avec votre système d'exploitation.",
    "downloads_macos_arm": "macOS (Apple Silicon)",
    "downloads_macos_intel": "macOS (Intel)",
