@@ -89,7 +89,7 @@
    "downloads_subtitle": "Software-Downloads",
    "downloads_title": "Menumix Druckerserver",
    "downloads_description": "Laden Sie den Menumix Druckerserver herunter und installieren Sie ihn, um Bestellungen von Tischen automatisch direkt auf Ihren Küchendrucker zu drucken.",
-   "downloads_printer_server_title": "Menumix Druckerserver v0.10.0",
+   "downloads_printer_server_title": "Menumix Druckerserver v0.10.2",
    "downloads_printer_server_description": "Diese Anwendung sendet Ihre QR-Menü-Bestellungen automatisch an Ihren Küchendrucker. Wählen Sie die Version, die mit Ihrem Betriebssystem kompatibel ist.",
    "downloads_macos_arm": "macOS (Apple Silicon)",
    "downloads_macos_intel": "macOS (Intel)",
